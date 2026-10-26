@@ -1,0 +1,95 @@
+{
+ "rule": "p75 of the c1_ctrv_gate arm's density EMA over frames outside the GT segments, per input size",
+ "gt_segments": {
+  "dense": [
+   10700,
+   11300
+  ],
+  "freeflow": [
+   6400,
+   7000
+  ],
+  "mixed": [
+   2500,
+   3100
+  ]
+ },
+ "old_threshold": 30,
+ "sizes": {
+  "640": {
+   "source": "data\\processed\\paper_runs\\best85_roi_20261013_v5\\640\\context_c1_ctrv_gate.json",
+   "calibration_frames": 9500,
+   "percentiles": {
+    "50": 6.0,
+    "75": 18.0,
+    "90": 21.0,
+    "99": 27.0
+   },
+   "threshold": 18.0,
+   "share_frames_at_or_above": {
+    "dense": 0.842,
+    "freeflow": 0.0,
+    "mixed": 0.305
+   },
+   "in_run_probe": {
+    "threshold": 18.0,
+    "source": "data\\processed\\paper_runs\\best85_roi_20261013_v5\\640",
+    "density_identical_to_logged_c1_arm": true
+   }
+  },
+  "448": {
+   "source": "data\\processed\\paper_runs\\best85_roi_20261013_v5\\448\\context_c1_ctrv_gate.json",
+   "calibration_frames": 9500,
+   "percentiles": {
+    "50": 5.0,
+    "75": 14.0,
+    "90": 17.0,
+    "99": 22.0
+   },
+   "threshold": 14.0,
+   "share_frames_at_or_above": {
+    "dense": 0.842,
+    "freeflow": 0.0,
+    "mixed": 0.348
+   },
+   "in_run_probe": {
+    "threshold": 14.0,
+    "source": "data\\processed\\paper_runs\\best85_roi_20261013_v5\\448",
+    "density_identical_to_logged_c1_arm": true
+   }
+  },
+  "960": {
+   "source": "data\\processed\\paper_runs\\best85_roi_20261013_pareto\\960 (cache; in-run probe, threshold = inf)",
+   "calibration_frames": 9500,
+   "percentiles": {
+    "50": 7.0,
+    "75": 21.0,
+    "90": 26.0,
+    "99": 32.0
+   },
+   "threshold": 21.0,
+   "share_frames_at_or_above": {
+    "dense": 0.873,
+    "freeflow": 0.0,
+    "mixed": 0.267
+   }
+  },
+  "1280": {
+   "source": "data\\processed\\paper_runs\\best85_roi_20261013_pareto\\1280 (cache; in-run probe, threshold = inf)",
+   "calibration_frames": 9500,
+   "percentiles": {
+    "50": 7.0,
+    "75": 23.0,
+    "90": 29.0,
+    "99": 35.0
+   },
+   "threshold": 23.0,
+   "share_frames_at_or_above": {
+    "dense": 0.918,
+    "freeflow": 0.0,
+    "mixed": 0.267
+   }
+  }
+ },
+ "in_run": "code/scripts/run_roi_paper.py c1_calibrate: c1_ctrv_gate replayed with an infinite density threshold, so it never enters DENSE_PEAK; same percentile over the same frames"
+}

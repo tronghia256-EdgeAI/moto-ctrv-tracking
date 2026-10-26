@@ -1,0 +1,363 @@
+{
+  "gt": "experiments/gt_qa/reviewed/20261007T161301Z_126e0b66/gt_reviewed.txt",
+  "npz": "experiments/c2_real_vnweights_full/detections_full13726.npz",
+  "segment": [
+    10700,
+    11300
+  ],
+  "warmup_frames": 1000,
+  "roi": false,
+  "warmup_check": {
+    "short": {
+      "mota": 0.8932526276276276,
+      "idf1": 0.9067890929326655,
+      "num_switches": 27
+    },
+    "full_replay": {
+      "mota": 0.8932526276276276,
+      "idf1": 0.9067890929326655,
+      "num_switches": 27
+    }
+  },
+  "pearson_r_idf1_drop_vs_divergence": 0.5916314536887232,
+  "variants": {
+    "baseline": {
+      "knobs": {},
+      "motorcycle": {
+        "mota": 0.8450638138138138,
+        "idf1": 0.8578990514111723,
+        "num_switches": 137
+      },
+      "ALL": {
+        "mota": 0.8794751571984153,
+        "idf1": 0.8890743798653578,
+        "num_switches": 141
+      },
+      "hota_alpha05_motorcycle": 0.844561002689721,
+      "exact_box_share_vs_gt": 0.007835960960960961,
+      "agreement_with_default": 0.007950240845531496
+    },
+    "c2_default": {
+      "knobs": {},
+      "motorcycle": {
+        "mota": 0.8932526276276276,
+        "idf1": 0.9067890929326655,
+        "num_switches": 27
+      },
+      "ALL": {
+        "mota": 0.9167666194162759,
+        "idf1": 0.9267748150015304,
+        "num_switches": 29
+      },
+      "hota_alpha05_motorcycle": 0.9003806745173577,
+      "exact_box_share_vs_gt": 0.909299924924925,
+      "agreement_with_default": 1.0
+    },
+    "q_x0.25": {
+      "knobs": {
+        "q_scale": 0.25
+      },
+      "motorcycle": {
+        "mota": 0.859375,
+        "idf1": 0.8652426098907499,
+        "num_switches": 110
+      },
+      "ALL": {
+        "mota": 0.8909969832442846,
+        "idf1": 0.8942252095981498,
+        "num_switches": 115
+      },
+      "hota_alpha05_motorcycle": 0.8512963113952055,
+      "exact_box_share_vs_gt": 0.07526276276276277,
+      "agreement_with_default": 0.08039968543276126
+    },
+    "q_x0.5": {
+      "knobs": {
+        "q_scale": 0.5
+      },
+      "motorcycle": {
+        "mota": 0.867210960960961,
+        "idf1": 0.8789208516170973,
+        "num_switches": 97
+      },
+      "ALL": {
+        "mota": 0.896885108857631,
+        "idf1": 0.9049463915668078,
+        "num_switches": 102
+      },
+      "hota_alpha05_motorcycle": 0.8655221804981994,
+      "exact_box_share_vs_gt": 0.1245777027027027,
+      "agreement_with_default": 0.13359988970081346
+    },
+    "q_x2": {
+      "knobs": {
+        "q_scale": 2
+      },
+      "motorcycle": {
+        "mota": 0.8525713213213213,
+        "idf1": 0.8614704663689517,
+        "num_switches": 152
+      },
+      "ALL": {
+        "mota": 0.8852542434485516,
+        "idf1": 0.8914152716856145,
+        "num_switches": 154
+      },
+      "hota_alpha05_motorcycle": 0.8432362282402106,
+      "exact_box_share_vs_gt": 0.13414977477477477,
+      "agreement_with_default": 0.13922277451423407
+    },
+    "q_x4": {
+      "knobs": {
+        "q_scale": 4
+      },
+      "motorcycle": {
+        "mota": 0.8167698948948949,
+        "idf1": 0.8112196804230372,
+        "num_switches": 304
+      },
+      "ALL": {
+        "mota": 0.8575582451931814,
+        "idf1": 0.8522314640908685,
+        "num_switches": 310
+      },
+      "hota_alpha05_motorcycle": 0.7916806250120094,
+      "exact_box_share_vs_gt": 0.06517454954954954,
+      "agreement_with_default": 0.06676283640625705
+    },
+    "q_ang_x0.1": {
+      "knobs": {
+        "q_ang_scale": 0.1
+      },
+      "motorcycle": {
+        "mota": 0.8736861861861862,
+        "idf1": 0.8853045761963418,
+        "num_switches": 71
+      },
+      "ALL": {
+        "mota": 0.9019372660196998,
+        "idf1": 0.9099139719010947,
+        "num_switches": 75
+      },
+      "hota_alpha05_motorcycle": 0.8751645927607403,
+      "exact_box_share_vs_gt": 0.36256569069069067,
+      "agreement_with_default": 0.3935067925397191
+    },
+    "q_ang_x10": {
+      "knobs": {
+        "q_ang_scale": 10
+      },
+      "motorcycle": {
+        "mota": 0.8100131381381381,
+        "idf1": 0.797815472195867,
+        "num_switches": 612
+      },
+      "ALL": {
+        "mota": 0.8524333951223058,
+        "idf1": 0.8419784605979971,
+        "num_switches": 617
+      },
+      "hota_alpha05_motorcycle": 0.7851701711429229,
+      "exact_box_share_vs_gt": 0.22780593093093093,
+      "agreement_with_default": 0.24245468243459203
+    },
+    "r_x0.25": {
+      "knobs": {
+        "r_scale": 0.25
+      },
+      "motorcycle": {
+        "mota": 0.840137012012012,
+        "idf1": 0.8537026726057907,
+        "num_switches": 113
+      },
+      "ALL": {
+        "mota": 0.8756224330316578,
+        "idf1": 0.8855305582073959,
+        "num_switches": 117
+      },
+      "hota_alpha05_motorcycle": 0.839056590229516,
+      "exact_box_share_vs_gt": 0.052364864864864864,
+      "agreement_with_default": 0.054469530102790015
+    },
+    "r_x0.5": {
+      "knobs": {
+        "r_scale": 0.5
+      },
+      "motorcycle": {
+        "mota": 0.8590465465465466,
+        "idf1": 0.8732973172646258,
+        "num_switches": 110
+      },
+      "ALL": {
+        "mota": 0.8964126049503871,
+        "idf1": 0.9033999892006696,
+        "num_switches": 113
+      },
+      "hota_alpha05_motorcycle": 0.8605235834591063,
+      "exact_box_share_vs_gt": 0.1102195945945946,
+      "agreement_with_default": 0.11430779020089082
+    },
+    "r_x2": {
+      "knobs": {
+        "r_scale": 2
+      },
+      "motorcycle": {
+        "mota": 0.8591873123123124,
+        "idf1": 0.8672193404964802,
+        "num_switches": 143
+      },
+      "ALL": {
+        "mota": 0.8905244793370407,
+        "idf1": 0.8956635910717818,
+        "num_switches": 149
+      },
+      "hota_alpha05_motorcycle": 0.8516283345715038,
+      "exact_box_share_vs_gt": 0.07681118618618618,
+      "agreement_with_default": 0.08051389904901243
+    },
+    "r_x4": {
+      "knobs": {
+        "r_scale": 4
+      },
+      "motorcycle": {
+        "mota": 0.8432807807807807,
+        "idf1": 0.8487167002851778,
+        "num_switches": 185
+      },
+      "ALL": {
+        "mota": 0.8782030312942972,
+        "idf1": 0.8815957657479252,
+        "num_switches": 190
+      },
+      "hota_alpha05_motorcycle": 0.8300183320425724,
+      "exact_box_share_vs_gt": 0.031578453453453455,
+      "agreement_with_default": 0.03212796186809661
+    },
+    "chi2_p90": {
+      "knobs": {
+        "chi2": 4.605
+      },
+      "motorcycle": {
+        "mota": 0.879786036036036,
+        "idf1": 0.8945939045054665,
+        "num_switches": 69
+      },
+      "ALL": {
+        "mota": 0.9063351870025079,
+        "idf1": 0.9172883554978917,
+        "num_switches": 73
+      },
+      "hota_alpha05_motorcycle": 0.8827041159904196,
+      "exact_box_share_vs_gt": 0.82568506006006,
+      "agreement_with_default": 0.9086315402636778
+    },
+    "chi2_p99": {
+      "knobs": {
+        "chi2": 9.21
+      },
+      "motorcycle": {
+        "mota": 0.855152027027027,
+        "idf1": 0.8623764205857896,
+        "num_switches": 173
+      },
+      "ALL": {
+        "mota": 0.8872896448951405,
+        "idf1": 0.8921563347157142,
+        "num_switches": 176
+      },
+      "hota_alpha05_motorcycle": 0.8462875269049192,
+      "exact_box_share_vs_gt": 0.7605574324324325,
+      "agreement_with_default": 0.8277070063694267
+    },
+    "c0_0.3": {
+      "knobs": {
+        "c0": 0.3
+      },
+      "motorcycle": {
+        "mota": 0.8473160660660661,
+        "idf1": 0.8512837074115938,
+        "num_switches": 265
+      },
+      "ALL": {
+        "mota": 0.881292479918584,
+        "idf1": 0.8835524309976864,
+        "num_switches": 269
+      },
+      "hota_alpha05_motorcycle": 0.8343320787621846,
+      "exact_box_share_vs_gt": 0.7228322072072072,
+      "agreement_with_default": 0.7814329143790553
+    },
+    "c0_0.7": {
+      "knobs": {
+        "c0": 0.7
+      },
+      "motorcycle": {
+        "mota": 0.8705424174174174,
+        "idf1": 0.8882971268395234,
+        "num_switches": 77
+      },
+      "ALL": {
+        "mota": 0.8991749354850435,
+        "idf1": 0.9125545515455517,
+        "num_switches": 79
+      },
+      "hota_alpha05_motorcycle": 0.8768370046930561,
+      "exact_box_share_vs_gt": 0.7902120870870871,
+      "agreement_with_default": 0.8713833845008838
+    },
+    "nsa_floor_0.01": {
+      "knobs": {
+        "nsa_floor": 0.01
+      },
+      "motorcycle": {
+        "mota": 0.8932526276276276,
+        "idf1": 0.9067890929326655,
+        "num_switches": 27
+      },
+      "ALL": {
+        "mota": 0.9167666194162759,
+        "idf1": 0.9267748150015304,
+        "num_switches": 29
+      },
+      "hota_alpha05_motorcycle": 0.9003806745173577,
+      "exact_box_share_vs_gt": 0.909299924924925,
+      "agreement_with_default": 1.0
+    },
+    "nsa_floor_0.1": {
+      "knobs": {
+        "nsa_floor": 0.1
+      },
+      "motorcycle": {
+        "mota": 0.8932526276276276,
+        "idf1": 0.9067890929326655,
+        "num_switches": 27
+      },
+      "ALL": {
+        "mota": 0.9167666194162759,
+        "idf1": 0.9267748150015304,
+        "num_switches": 29
+      },
+      "hota_alpha05_motorcycle": 0.9003806745173577,
+      "exact_box_share_vs_gt": 0.9014170420420421,
+      "agreement_with_default": 0.9922533920058673
+    },
+    "nsa_floor_0.2": {
+      "knobs": {
+        "nsa_floor": 0.2
+      },
+      "motorcycle": {
+        "mota": 0.8873404654654655,
+        "idf1": 0.9015750771300657,
+        "num_switches": 56
+      },
+      "ALL": {
+        "mota": 0.9123686984334678,
+        "idf1": 0.9226170109312252,
+        "num_switches": 60
+      },
+      "hota_alpha05_motorcycle": 0.8932946535500942,
+      "exact_box_share_vs_gt": 0.6608952702702703,
+      "agreement_with_default": 0.7260632197091342
+    }
+  }
+}

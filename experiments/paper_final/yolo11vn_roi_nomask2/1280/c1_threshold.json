@@ -1,0 +1,17 @@
+{
+  "protocol_sha256": "e46d7fa30612ef13c94cc2f2a5a2ace0a6857150c3b26c659bd506666356c44f",
+  "rule": "per size, fixed after caching and before any C1 arm: p75 of the density EMA of c1_ctrv_gate replayed with an infinite density threshold, over source frames outside every GT segment (pre-registered in experiments/c1_recalibration); {size}/c1_threshold.json",
+  "threshold": 28.0,
+  "calibration_frames": 9500,
+  "percentiles": {
+    "50": 9.0,
+    "75": 28.0,
+    "90": 34.0,
+    "99": 42.0
+  },
+  "share_frames_at_or_above": {
+    "dense": 0.922,
+    "freeflow": 0.0,
+    "mixed": 0.263
+  }
+}

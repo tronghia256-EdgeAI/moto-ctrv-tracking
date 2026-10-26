@@ -1,0 +1,73 @@
+{
+ "run": "<workspace>/CAAP\\data\\processed\\paper_runs\\best85_roi_ocsortctrv\\640",
+ "pair": "ocsort_matched_ctrv - ocsort_matched",
+ "mixed_block_ci": {
+  "block_frames": 30,
+  "seed": [
+   20261013,
+   30
+  ],
+  "replicates": 10000,
+  "mota": {
+   "mean": -0.018125408283647487,
+   "ci95": [
+    -0.027177465708634906,
+    -0.008730738340679486
+   ]
+  },
+  "idf1": {
+   "mean": -0.00799725811696824,
+   "ci95": [
+    -0.01353497210796067,
+    -0.00140808197029139
+   ]
+  }
+ },
+ "secondary": {
+  "mixed": {
+   "idf1": {
+    "ocsort_matched_ctrv": 0.7493740408690736,
+    "ocsort_matched": 0.7566111655239961
+   },
+   "idf1_diff": -0.007237124654922544,
+   "idsw": {
+    "ocsort_matched_ctrv": 11,
+    "ocsort_matched": 11
+   },
+   "exact_box_share": {
+    "ocsort_matched_ctrv": 0.0,
+    "ocsort_matched": 0.0
+   }
+  },
+  "dense": {
+   "idf1": {
+    "ocsort_matched_ctrv": 0.6226132534631225,
+    "ocsort_matched": 0.6257898580636967
+   },
+   "idf1_diff": -0.0031766046005742288,
+   "idsw": {
+    "ocsort_matched_ctrv": 104,
+    "ocsort_matched": 79
+   },
+   "exact_box_share": {
+    "ocsort_matched_ctrv": 0.0,
+    "ocsort_matched": 0.0
+   }
+  },
+  "freeflow": {
+   "idf1": {
+    "ocsort_matched_ctrv": 0.7284588203316118,
+    "ocsort_matched": 0.7259786476868327
+   },
+   "idf1_diff": 0.002480172644779066,
+   "idsw": {
+    "ocsort_matched_ctrv": 1,
+    "ocsort_matched": 2
+   },
+   "exact_box_share": {
+    "ocsort_matched_ctrv": 0.0,
+    "ocsort_matched": 0.0
+   }
+  }
+ }
+}

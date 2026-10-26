@@ -1,0 +1,295 @@
+{
+ "per_camera": {
+  "7_20_2017 (seen)": {
+   "raw": {
+    "count": 0,
+    "hours": 0.5,
+    "per_hour": 0.0,
+    "ci95": [
+     0.0,
+     7.37
+    ]
+   },
+   "c3": {
+    "count": 0,
+    "hours": 0.5,
+    "per_hour": 0.0,
+    "ci95": [
+     0.0,
+     7.37
+    ]
+   },
+   "real_accident_episodes": 0
+  },
+  "CongHoa-TruongChinh": {
+   "raw": {
+    "count": 0,
+    "hours": 0.152,
+    "per_hour": 0.0,
+    "ci95": [
+     0.0,
+     24.22
+    ]
+   },
+   "c3": {
+    "count": 0,
+    "hours": 0.152,
+    "per_hour": 0.0,
+    "ci95": [
+     0.0,
+     24.22
+    ]
+   },
+   "real_accident_episodes": 0
+  },
+  "CongHoa-UtTich1": {
+   "raw": {
+    "count": 0,
+    "hours": 0.303,
+    "per_hour": 0.0,
+    "ci95": [
+     0.0,
+     12.18
+    ]
+   },
+   "c3": {
+    "count": 0,
+    "hours": 0.303,
+    "per_hour": 0.0,
+    "ci95": [
+     0.0,
+     12.18
+    ]
+   },
+   "real_accident_episodes": 0
+  },
+  "DuongBaTrac-TaQuangBuu1": {
+   "raw": {
+    "count": 0,
+    "hours": 0.152,
+    "per_hour": 0.0,
+    "ci95": [
+     0.0,
+     24.2
+    ]
+   },
+   "c3": {
+    "count": 0,
+    "hours": 0.152,
+    "per_hour": 0.0,
+    "ci95": [
+     0.0,
+     24.2
+    ]
+   },
+   "real_accident_episodes": 0
+  },
+  "HAMQ1": {
+   "raw": {
+    "count": 0,
+    "hours": 0.25,
+    "per_hour": 0.0,
+    "ci95": [
+     0.0,
+     14.76
+    ]
+   },
+   "c3": {
+    "count": 0,
+    "hours": 0.25,
+    "per_hour": 0.0,
+    "ci95": [
+     0.0,
+     14.76
+    ]
+   },
+   "real_accident_episodes": 0
+  },
+  "NKKN-VoThiSau": {
+   "raw": {
+    "count": 0,
+    "hours": 0.153,
+    "per_hour": 0.0,
+    "ci95": [
+     0.0,
+     24.19
+    ]
+   },
+   "c3": {
+    "count": 0,
+    "hours": 0.153,
+    "per_hour": 0.0,
+    "ci95": [
+     0.0,
+     24.19
+    ]
+   },
+   "real_accident_episodes": 0
+  }
+ },
+ "pooled_unseen_normal": {
+  "raw": {
+   "count": 0,
+   "hours": 1.01,
+   "per_hour": 0.0,
+   "ci95": [
+    0.0,
+    3.65
+   ]
+  },
+  "c3": {
+   "count": 0,
+   "hours": 1.01,
+   "per_hour": 0.0,
+   "ci95": [
+    0.0,
+    3.65
+   ]
+  }
+ },
+ "accident_clip": {
+  "raw": {
+   "alerts": true,
+   "first_alert_frame": 60,
+   "latency_s": 0.17,
+   "duration_s": 0.9,
+   "false_before_onset": 0
+  },
+  "c3": {
+   "alerts": true,
+   "first_alert_frame": 62,
+   "latency_s": 0.23,
+   "duration_s": 0.53,
+   "false_before_onset": 0
+  }
+ },
+ "verdict": "inconclusive: the raw pipeline has 0-2 false episodes on unseen normal clips",
+ "clips": [
+  {
+   "clip": "7_20_2017 11_59_59 AM (UTC+07_00).mkv",
+   "camera": "7_20_2017",
+   "minutes": 15.0,
+   "seen_camera": true,
+   "episodes": {
+    "raw": [],
+    "c3": []
+   }
+  },
+  {
+   "clip": "7_20_2017 4_59_59 PM (UTC+07_00).mkv",
+   "camera": "7_20_2017",
+   "minutes": 15.0,
+   "seen_camera": true,
+   "episodes": {
+    "raw": [],
+    "c3": []
+   }
+  },
+  {
+   "clip": "accident_tonghop.mp4",
+   "camera": "accident_tonghop.mp4",
+   "minutes": 0.3,
+   "seen_camera": false,
+   "episodes": {
+    "raw": [
+     [
+      60,
+      86,
+      "accident"
+     ],
+     [
+      360,
+      480,
+      "accident"
+     ]
+    ],
+    "c3": [
+     [
+      62,
+      77,
+      "accident"
+     ],
+     [
+      362,
+      480,
+      "accident"
+     ]
+    ]
+   },
+   "raw": {
+    "alerts": true,
+    "first_alert_frame": 60,
+    "latency_s": 0.17,
+    "duration_s": 0.9,
+    "false_before_onset": 0
+   },
+   "c3": {
+    "alerts": true,
+    "first_alert_frame": 62,
+    "latency_s": 0.23,
+    "duration_s": 0.53,
+    "false_before_onset": 0
+   }
+  },
+  {
+   "clip": "CongHoa-TruongChinh 2017-07-18_17_00_00_000.asf",
+   "camera": "CongHoa-TruongChinh",
+   "minutes": 9.1,
+   "seen_camera": false,
+   "episodes": {
+    "raw": [],
+    "c3": []
+   }
+  },
+  {
+   "clip": "CongHoa-UtTich1 2017-07-17_14.15.asf",
+   "camera": "CongHoa-UtTich1",
+   "minutes": 9.1,
+   "seen_camera": false,
+   "episodes": {
+    "raw": [],
+    "c3": []
+   }
+  },
+  {
+   "clip": "CongHoa-UtTich1 2017-07-17_17.15.asf",
+   "camera": "CongHoa-UtTich1",
+   "minutes": 9.1,
+   "seen_camera": false,
+   "episodes": {
+    "raw": [],
+    "c3": []
+   }
+  },
+  {
+   "clip": "DuongBaTrac-TaQuangBuu1 2017-07-18_08_00_00_000.asf",
+   "camera": "DuongBaTrac-TaQuangBuu1",
+   "minutes": 9.1,
+   "seen_camera": false,
+   "episodes": {
+    "raw": [],
+    "c3": []
+   }
+  },
+  {
+   "clip": "HAMQ1 - 2017-07-20 15-00-07-155.mov",
+   "camera": "HAMQ1",
+   "minutes": 15.0,
+   "seen_camera": false,
+   "episodes": {
+    "raw": [],
+    "c3": []
+   }
+  },
+  {
+   "clip": "NKKN-VoThiSau 2017-07-18_08_00_00_000.asf",
+   "camera": "NKKN-VoThiSau",
+   "minutes": 9.2,
+   "seen_camera": false,
+   "episodes": {
+    "raw": [],
+    "c3": []
+   }
+  }
+ ]
+}

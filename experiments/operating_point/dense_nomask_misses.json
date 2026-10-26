@@ -1,0 +1,248 @@
+{
+ "rule": "dense segment, GT motorcycles; one-to-one IoU >= 0.5 per frame; detections: class motorcycle, bottom-centre in the ROI; C2 = tracks_ctrv_gate_nsa; lost = matched by C2 with the mask, missed without; gained = the reverse; \"detection in the X run\" = the GT box was matched by a detection of the run where C2 missed it",
+ "runs": {
+  "masked": "best85_roi_final",
+  "unmasked": "best85_roi_nomask2"
+ },
+ "results": {
+  "448": {
+   "summary": {
+    "masked": {
+     "gt_matched_by_c2": 6950,
+     "gt_matched_by_det50": 7725,
+     "gt_matched_by_det10": 12850,
+     "detections_conf50_in_roi": 9042
+    },
+    "unmasked": {
+     "gt_matched_by_c2": 7282,
+     "gt_matched_by_det50": 8044,
+     "gt_matched_by_det10": 13582,
+     "detections_conf50_in_roi": 9402
+    }
+   },
+   "confidence_shift_unmasked_minus_masked": {
+    "lost": {
+     "n": 358,
+     "median": -0.021,
+     "share_lower": 0.709
+    },
+    "all whole, >=20px from the edge": {
+     "n": 11567,
+     "median": -0.003,
+     "share_lower": 0.545
+    }
+   },
+   "interior_threshold_crossings": {
+    "<0.5 masked, >=0.5 unmasked": 600,
+    "same side": 10648,
+    ">=0.5 masked, <0.5 unmasked": 319
+   },
+   "lost": {
+    "bottom-centre to ROI edge 5-20px": 4,
+    "bottom-centre to ROI edge <5px": 23,
+    "bottom-centre to ROI edge >=20px": 346,
+    "detection in the unmasked run: det10 only": 113,
+    "detection in the unmasked run: det50": 245,
+    "detection in the unmasked run: no det": 15,
+    "height 20-40": 181,
+    "height >=40": 192,
+    "object whole inside": 373,
+    "total": 373
+   },
+   "gained": {
+    "bottom-centre to ROI edge 5-20px": 10,
+    "bottom-centre to ROI edge <5px": 32,
+    "bottom-centre to ROI edge >=20px": 663,
+    "detection in the masked run: det10 only": 384,
+    "detection in the masked run: det50": 301,
+    "detection in the masked run: no det": 20,
+    "height 20-40": 501,
+    "height <20": 85,
+    "height >=40": 119,
+    "object whole inside": 705,
+    "total": 705
+   }
+  },
+  "640": {
+   "summary": {
+    "masked": {
+     "gt_matched_by_c2": 9343,
+     "gt_matched_by_det50": 9951,
+     "gt_matched_by_det10": 14894,
+     "detections_conf50_in_roi": 11738
+    },
+    "unmasked": {
+     "gt_matched_by_c2": 9501,
+     "gt_matched_by_det50": 10161,
+     "gt_matched_by_det10": 16282,
+     "detections_conf50_in_roi": 11876
+    }
+   },
+   "confidence_shift_unmasked_minus_masked": {
+    "lost": {
+     "n": 425,
+     "median": -0.041,
+     "share_lower": 0.819
+    },
+    "all whole, >=20px from the edge": {
+     "n": 13260,
+     "median": -0.005,
+     "share_lower": 0.589
+    }
+   },
+   "interior_threshold_crossings": {
+    "<0.5 masked, >=0.5 unmasked": 471,
+    "same side": 12391,
+    ">=0.5 masked, <0.5 unmasked": 398
+   },
+   "lost": {
+    "bottom-centre to ROI edge 5-20px": 13,
+    "bottom-centre to ROI edge <5px": 41,
+    "bottom-centre to ROI edge >=20px": 390,
+    "detection in the unmasked run: det10 only": 188,
+    "detection in the unmasked run: det50": 238,
+    "detection in the unmasked run: no det": 18,
+    "height 20-40": 319,
+    "height <20": 10,
+    "height >=40": 115,
+    "object whole inside": 444,
+    "total": 444
+   },
+   "gained": {
+    "bottom-centre to ROI edge 5-20px": 68,
+    "bottom-centre to ROI edge <5px": 27,
+    "bottom-centre to ROI edge >=20px": 507,
+    "detection in the masked run: det10 only": 278,
+    "detection in the masked run: det50": 289,
+    "detection in the masked run: no det": 35,
+    "height 20-40": 340,
+    "height <20": 199,
+    "height >=40": 63,
+    "mask cuts the object": 39,
+    "object whole inside": 563,
+    "total": 602
+   }
+  },
+  "960": {
+   "summary": {
+    "masked": {
+     "gt_matched_by_c2": 11661,
+     "gt_matched_by_det50": 12069,
+     "gt_matched_by_det10": 15835,
+     "detections_conf50_in_roi": 13926
+    },
+    "unmasked": {
+     "gt_matched_by_c2": 11366,
+     "gt_matched_by_det50": 11765,
+     "gt_matched_by_det10": 16831,
+     "detections_conf50_in_roi": 13382
+    }
+   },
+   "confidence_shift_unmasked_minus_masked": {
+    "lost": {
+     "n": 773,
+     "median": -0.071,
+     "share_lower": 0.877
+    },
+    "all whole, >=20px from the edge": {
+     "n": 13937,
+     "median": -0.016,
+     "share_lower": 0.739
+    }
+   },
+   "interior_threshold_crossings": {
+    "same side": 12847,
+    "<0.5 masked, >=0.5 unmasked": 264,
+    ">=0.5 masked, <0.5 unmasked": 826
+   },
+   "lost": {
+    "bottom-centre to ROI edge 5-20px": 14,
+    "bottom-centre to ROI edge <5px": 54,
+    "bottom-centre to ROI edge >=20px": 730,
+    "detection in the unmasked run: det10 only": 345,
+    "detection in the unmasked run: det50": 429,
+    "detection in the unmasked run: no det": 24,
+    "height 20-40": 610,
+    "height <20": 51,
+    "height >=40": 137,
+    "object whole inside": 798,
+    "total": 798
+   },
+   "gained": {
+    "bottom-centre to ROI edge 5-20px": 189,
+    "bottom-centre to ROI edge <5px": 34,
+    "bottom-centre to ROI edge >=20px": 280,
+    "detection in the masked run: det10 only": 227,
+    "detection in the masked run: det50": 225,
+    "detection in the masked run: no det": 51,
+    "height 20-40": 119,
+    "height <20": 331,
+    "height >=40": 53,
+    "mask cuts the object": 134,
+    "object whole inside": 369,
+    "total": 503
+   }
+  },
+  "1280": {
+   "summary": {
+    "masked": {
+     "gt_matched_by_c2": 13849,
+     "gt_matched_by_det50": 13440,
+     "gt_matched_by_det10": 16887,
+     "detections_conf50_in_roi": 15866
+    },
+    "unmasked": {
+     "gt_matched_by_c2": 13366,
+     "gt_matched_by_det50": 13455,
+     "gt_matched_by_det10": 18100,
+     "detections_conf50_in_roi": 15806
+    }
+   },
+   "confidence_shift_unmasked_minus_masked": {
+    "lost": {
+     "n": 1225,
+     "median": -0.125,
+     "share_lower": 0.926
+    },
+    "all whole, >=20px from the edge": {
+     "n": 14820,
+     "median": -0.015,
+     "share_lower": 0.729
+    }
+   },
+   "interior_threshold_crossings": {
+    "same side": 13918,
+    "<0.5 masked, >=0.5 unmasked": 223,
+    ">=0.5 masked, <0.5 unmasked": 679
+   },
+   "lost": {
+    "bottom-centre to ROI edge 5-20px": 65,
+    "bottom-centre to ROI edge <5px": 57,
+    "bottom-centre to ROI edge >=20px": 1123,
+    "detection in the unmasked run: det10 only": 908,
+    "detection in the unmasked run: det50": 318,
+    "detection in the unmasked run: no det": 19,
+    "height 20-40": 336,
+    "height <20": 774,
+    "height >=40": 135,
+    "mask cuts the object": 33,
+    "object whole inside": 1212,
+    "total": 1245
+   },
+   "gained": {
+    "bottom-centre to ROI edge 5-20px": 384,
+    "bottom-centre to ROI edge <5px": 114,
+    "bottom-centre to ROI edge >=20px": 264,
+    "detection in the masked run: det10 only": 320,
+    "detection in the masked run: det50": 231,
+    "detection in the masked run: no det": 211,
+    "height 20-40": 125,
+    "height <20": 553,
+    "height >=40": 84,
+    "mask cuts the object": 377,
+    "object whole inside": 385,
+    "total": 762
+   }
+  }
+ }
+}

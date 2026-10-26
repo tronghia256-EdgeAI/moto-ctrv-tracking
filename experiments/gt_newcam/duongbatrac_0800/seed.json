@@ -1,0 +1,35 @@
+{
+ "trackers": [
+  "yolo11_vn_1280/baseline",
+  "yolo11_vn_1280/ctrv_gate_nsa",
+  "yolo11_vn_1280/c1_ctrv_gate",
+  "yolo11_vn_1280/c1c2c3",
+  "best_640/baseline",
+  "best_640/ctrv_gate_nsa",
+  "best_640/c1_ctrv_gate",
+  "best_640/c1c2c3",
+  "best_448/baseline",
+  "best_448/ctrv_gate_nsa",
+  "best_448/c1_ctrv_gate",
+  "best_448/c1c2c3"
+ ],
+ "detectors": {
+  "yolo11_vn_1280": {
+   "weights": "weights/yolo11_vn.pt",
+   "imgsz": 1280
+  },
+  "best_640": {
+   "weights": "ket_qua_train/best.pt",
+   "imgsz": 640
+  },
+  "best_448": {
+   "weights": "ket_qua_train/best.pt",
+   "imgsz": 448
+  }
+ },
+ "rule": "first source kept; later sources add boxes with no partner at IoU >= 0.5, under the nearest same-class matched identity of their track if free, else a fresh one",
+ "kept": 26866,
+ "linked": 2169,
+ "fresh_boxes": 3215,
+ "fresh_ids": 514
+}

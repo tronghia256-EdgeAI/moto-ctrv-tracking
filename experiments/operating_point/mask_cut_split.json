@@ -1,0 +1,222 @@
+{
+ "rule": "GT motorcycles; detections of class motorcycle, conf >= 0.5, bottom-centre in the ROI; one-to-one IoU >= 0.5 per frame; cut = top-centre of the GT box outside the ROI polygon",
+ "sources": {
+  "yolo_full_old": "experiments/c2_real_vnweights_full/detections_full13726.npz (unmasked, seeded the GT)",
+  "yolo_roi": "yolo11vn_roi_final2/1280",
+  "best_roi_1280": "best85_roi_final/1280",
+  "best_roi_960": "best85_roi_final/960",
+  "best_roi_640": "best85_roi_final/640"
+ },
+ "results": {
+  "dense|yolo_full_old": {
+   "cut": {
+    "n": 1810,
+    "recall": 0.76
+   },
+   "whole": {
+    "n": 3520,
+    "recall": 0.646
+   },
+   "ge20": {
+    "n": 13883,
+    "recall": 0.927
+   }
+  },
+  "dense|yolo_roi": {
+   "cut": {
+    "n": 1810,
+    "recall": 0.204
+   },
+   "whole": {
+    "n": 3520,
+    "recall": 0.369
+   },
+   "ge20": {
+    "n": 13883,
+    "recall": 0.903
+   }
+  },
+  "dense|best_roi_1280": {
+   "cut": {
+    "n": 1810,
+    "recall": 0.16
+   },
+   "whole": {
+    "n": 3520,
+    "recall": 0.305
+   },
+   "ge20": {
+    "n": 13883,
+    "recall": 0.87
+   }
+  },
+  "dense|best_roi_960": {
+   "cut": {
+    "n": 1810,
+    "recall": 0.019
+   },
+   "whole": {
+    "n": 3520,
+    "recall": 0.174
+   },
+   "ge20": {
+    "n": 13883,
+    "recall": 0.823
+   }
+  },
+  "dense|best_roi_640": {
+   "cut": {
+    "n": 1810,
+    "recall": 0.001
+   },
+   "whole": {
+    "n": 3520,
+    "recall": 0.035
+   },
+   "ge20": {
+    "n": 13883,
+    "recall": 0.708
+   }
+  },
+  "freeflow|yolo_full_old": {
+   "cut": {
+    "n": 506,
+    "recall": 0.879
+   },
+   "whole": {
+    "n": 363,
+    "recall": 0.909
+   },
+   "ge20": {
+    "n": 1425,
+    "recall": 0.962
+   }
+  },
+  "freeflow|yolo_roi": {
+   "cut": {
+    "n": 506,
+    "recall": 0.338
+   },
+   "whole": {
+    "n": 363,
+    "recall": 0.898
+   },
+   "ge20": {
+    "n": 1425,
+    "recall": 0.951
+   }
+  },
+  "freeflow|best_roi_1280": {
+   "cut": {
+    "n": 506,
+    "recall": 0.235
+   },
+   "whole": {
+    "n": 363,
+    "recall": 0.749
+   },
+   "ge20": {
+    "n": 1425,
+    "recall": 0.938
+   }
+  },
+  "freeflow|best_roi_960": {
+   "cut": {
+    "n": 506,
+    "recall": 0.045
+   },
+   "whole": {
+    "n": 363,
+    "recall": 0.623
+   },
+   "ge20": {
+    "n": 1425,
+    "recall": 0.941
+   }
+  },
+  "freeflow|best_roi_640": {
+   "cut": {
+    "n": 506,
+    "recall": 0.0
+   },
+   "whole": {
+    "n": 363,
+    "recall": 0.256
+   },
+   "ge20": {
+    "n": 1425,
+    "recall": 0.899
+   }
+  },
+  "mixed|yolo_full_old": {
+   "cut": {
+    "n": 693,
+    "recall": 0.903
+   },
+   "whole": {
+    "n": 884,
+    "recall": 0.914
+   },
+   "ge20": {
+    "n": 5691,
+    "recall": 0.978
+   }
+  },
+  "mixed|yolo_roi": {
+   "cut": {
+    "n": 693,
+    "recall": 0.27
+   },
+   "whole": {
+    "n": 884,
+    "recall": 0.67
+   },
+   "ge20": {
+    "n": 5691,
+    "recall": 0.966
+   }
+  },
+  "mixed|best_roi_1280": {
+   "cut": {
+    "n": 693,
+    "recall": 0.228
+   },
+   "whole": {
+    "n": 884,
+    "recall": 0.571
+   },
+   "ge20": {
+    "n": 5691,
+    "recall": 0.932
+   }
+  },
+  "mixed|best_roi_960": {
+   "cut": {
+    "n": 693,
+    "recall": 0.056
+   },
+   "whole": {
+    "n": 884,
+    "recall": 0.381
+   },
+   "ge20": {
+    "n": 5691,
+    "recall": 0.892
+   }
+  },
+  "mixed|best_roi_640": {
+   "cut": {
+    "n": 693,
+    "recall": 0.01
+   },
+   "whole": {
+    "n": 884,
+    "recall": 0.152
+   },
+   "ge20": {
+    "n": 5691,
+    "recall": 0.794
+   }
+  }
+ }
+}

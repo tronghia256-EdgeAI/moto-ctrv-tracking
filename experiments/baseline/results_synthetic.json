@@ -1,0 +1,18 @@
+{
+  "tracking": {
+    "mota": 1.0,
+    "idf1": 1.0,
+    "track_fragmentation_rate": 0.0,
+    "num_switches": 0,
+    "num_fragmentations": 0,
+    "num_misses": 0,
+    "num_false_positives": 0
+  },
+  "system": {
+    "fps": 571.4522988130138,
+    "latency_ms": 1.7499273379022877
+  },
+  "num_frames": 300,
+  "mode": "synthetic",
+  "config": "configs/baseline.yaml"
+}

@@ -1,0 +1,25 @@
+{
+ "run": "data\\processed\\paper_runs\\yolo11vn_roi_final2",
+ "protocol_sha256": "d48d4a1e6bee131e2503c72ff6e931ed0f78a14e7f33c9a18fe9aca1a3ec7836",
+ "commit": "9d2a0f6",
+ "branch": "fix/invalid-tracker-state",
+ "cwd": "<workspace>/CAAP-fix (git worktree)",
+ "launched": "2026-10-13 22:20",
+ "launcher": {
+  "output": "<workspace>/CAAP/data/processed/paper_runs/yolo11vn_roi_final2",
+  "started_local": "2026-10-13 22:20",
+  "cwd": "<workspace>/CAAP-fix (git worktree, branch fix/invalid-tracker-state)",
+  "commands": "run_roi_paper --phase cache, then replay, then score; args: --receipt <workspace>/CAAP/data/annotations/paper_gt_reconciliation/reconcile_90026162a7963db7/reconciled_e880ead8.json --video <workspace>/CAAP/data/raw/videos/NKKN-VoThiSau 2017-07-18_08_00_00_000.asf --weights <workspace>/CAAP/weights/yolo11_vn.pt --trackeval <scratch>\\pydeps --sizes 1280 --out <workspace>/CAAP/data/processed/paper_runs/yolo11vn_roi_final2 (benchmark later with the SAME args, from the same worktree)",
+  "commit": "9d2a0f6",
+  "replaces": "yolo11vn_roi_final (FAILED at replay: own-tracker degenerate state, fixed in this commit)",
+  "launched_by": "session caap-cb"
+ },
+ "status": {
+  "status": "COMPLETED",
+  "requested_phase": "score",
+  "protocol_sha256": "d48d4a1e6bee131e2503c72ff6e931ed0f78a14e7f33c9a18fe9aca1a3ec7836",
+  "size": 1280,
+  "phase": "score"
+ },
+ "note": "ROI pixel mask before the detector. Replaces yolo11vn_roi_final, which failed at replay on a degenerate own-tracker state (a car leaving at the bottom edge); 9d2a0f6 expires such states."
+}

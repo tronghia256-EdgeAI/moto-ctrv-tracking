@@ -1,0 +1,18 @@
+# configs/exp1_C2.yaml — Ablation Exp 1 (+C2 CTRV motion model)
+# Matches the ablation design (Exp0-Exp3): Exp1 adds C2 on top of the baseline — C2 is the
+# first implemented contribution and is independently testable.
+ablation:
+  use_C1_adaptive: false
+  use_C2_ctrv: true
+  use_C3_reliability: false
+
+# C2 uncertainty gating: lost motorcycle tracks may re-associate inside
+# the CTRV innovation ellipse (validated 2026-07-14: moto re-id events
+# -52% vs baseline on NKKN 9000-frame replay, no ID-transfer inflation).
+tracker:
+  uncertainty_gating: true
+
+# NSA measurement noise for CTRV (validated 2026-07-14: moto re-id
+# 125 -> 108 on NKKN replay, flip rate DOWN 23.7% -> 22.0%).
+ctrv:
+  nsa_noise: true

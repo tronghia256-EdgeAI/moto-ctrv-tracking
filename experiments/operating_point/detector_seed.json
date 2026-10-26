@@ -1,0 +1,892 @@
+{
+ "note": "Every NKKN GT was pre-labelled from trackers on yolo11_vn@1280 detections, so an object\nonly another detector finds was never shown to a reviewer, and yolo11_vn's misses are\nunderstated.\n  extras_by_height  unmatched predictions by predicted box height and by where they lie\n                    (max IoU with any GT box of any class; < 0.1 = the GT has nothing there)\n  miss_by_height    miss rate by GT box height on the GT as is (\"gt\") and on the GT plus\n                    the reference point's extras that lie where the GT has nothing\n                    (\"gt_plus_ref\", i.e. as if all of them were real)\nNo audit share exists for these extras (the blind audit sampled the yolo11_vn@1280 trackers),\nso the two columns are bounds, not a corrected value. Kept outside code/ while paper runs\nare pending; move to code/scripts afterwards.\n    PYTHONPATH=. python experiments/operating_point/detector_seed.py ref=best_1280         best_448=<run>/448 ... best_1280=<run>/1280 yolo11_vn_1280=<run>/1280|old",
+ "reference": "best_1280",
+ "tracker": "baseline",
+ "segments": {
+  "dense": {
+   "added_boxes": 1382,
+   "operating_points": {
+    "best_448": {
+     "extras_by_height": {
+      "0-20": {
+       "nothing": 1,
+       "partial": 0,
+       "overlaps": 0,
+       "share_nothing": 1.0
+      },
+      "20-40": {
+       "nothing": 232,
+       "partial": 74,
+       "overlaps": 1,
+       "share_nothing": 0.756
+      },
+      "40-10000": {
+       "nothing": 472,
+       "partial": 191,
+       "overlaps": 5,
+       "share_nothing": 0.707
+      }
+     },
+     "miss_by_height": {
+      "gt": {
+       "0-20": {
+        "gt": 5330,
+        "missed": 5329,
+        "rate": 1.0
+       },
+       "20-40": {
+        "gt": 8228,
+        "missed": 5869,
+        "rate": 0.713
+       },
+       "40-10000": {
+        "gt": 5655,
+        "missed": 1252,
+        "rate": 0.221
+       }
+      },
+      "gt_plus_ref": {
+       "0-20": {
+        "gt": 5364,
+        "missed": 5363,
+        "rate": 1.0
+       },
+       "20-40": {
+        "gt": 8956,
+        "missed": 6426,
+        "rate": 0.718
+       },
+       "40-10000": {
+        "gt": 6275,
+        "missed": 1496,
+        "rate": 0.238
+       }
+      }
+     }
+    },
+    "best_640": {
+     "extras_by_height": {
+      "0-20": {
+       "nothing": 3,
+       "partial": 0,
+       "overlaps": 0,
+       "share_nothing": 1.0
+      },
+      "20-40": {
+       "nothing": 315,
+       "partial": 78,
+       "overlaps": 1,
+       "share_nothing": 0.799
+      },
+      "40-10000": {
+       "nothing": 624,
+       "partial": 258,
+       "overlaps": 22,
+       "share_nothing": 0.69
+      }
+     },
+     "miss_by_height": {
+      "gt": {
+       "0-20": {
+        "gt": 5330,
+        "missed": 5265,
+        "rate": 0.988
+       },
+       "20-40": {
+        "gt": 8228,
+        "missed": 3919,
+        "rate": 0.476
+       },
+       "40-10000": {
+        "gt": 5655,
+        "missed": 768,
+        "rate": 0.136
+       }
+      },
+      "gt_plus_ref": {
+       "0-20": {
+        "gt": 5364,
+        "missed": 5298,
+        "rate": 0.988
+       },
+       "20-40": {
+        "gt": 8956,
+        "missed": 4393,
+        "rate": 0.491
+       },
+       "40-10000": {
+        "gt": 6275,
+        "missed": 962,
+        "rate": 0.153
+       }
+      }
+     }
+    },
+    "best_960": {
+     "extras_by_height": {
+      "0-20": {
+       "nothing": 9,
+       "partial": 3,
+       "overlaps": 0,
+       "share_nothing": 0.75
+      },
+      "20-40": {
+       "nothing": 498,
+       "partial": 148,
+       "overlaps": 0,
+       "share_nothing": 0.771
+      },
+      "40-10000": {
+       "nothing": 599,
+       "partial": 256,
+       "overlaps": 38,
+       "share_nothing": 0.671
+      }
+     },
+     "miss_by_height": {
+      "gt": {
+       "0-20": {
+        "gt": 5330,
+        "missed": 5012,
+        "rate": 0.94
+       },
+       "20-40": {
+        "gt": 8228,
+        "missed": 1999,
+        "rate": 0.243
+       },
+       "40-10000": {
+        "gt": 5655,
+        "missed": 704,
+        "rate": 0.124
+       }
+      },
+      "gt_plus_ref": {
+       "0-20": {
+        "gt": 5364,
+        "missed": 5033,
+        "rate": 0.938
+       },
+       "20-40": {
+        "gt": 8956,
+        "missed": 2281,
+        "rate": 0.255
+       },
+       "40-10000": {
+        "gt": 6275,
+        "missed": 902,
+        "rate": 0.144
+       }
+      }
+     }
+    },
+    "best_1280": {
+     "extras_by_height": {
+      "0-20": {
+       "nothing": 34,
+       "partial": 24,
+       "overlaps": 0,
+       "share_nothing": 0.586
+      },
+      "20-40": {
+       "nothing": 728,
+       "partial": 272,
+       "overlaps": 5,
+       "share_nothing": 0.724
+      },
+      "40-10000": {
+       "nothing": 620,
+       "partial": 247,
+       "overlaps": 43,
+       "share_nothing": 0.681
+      }
+     },
+     "miss_by_height": {
+      "gt": {
+       "0-20": {
+        "gt": 5330,
+        "missed": 4292,
+        "rate": 0.805
+       },
+       "20-40": {
+        "gt": 8228,
+        "missed": 1191,
+        "rate": 0.145
+       },
+       "40-10000": {
+        "gt": 5655,
+        "missed": 715,
+        "rate": 0.126
+       }
+      },
+      "gt_plus_ref": {
+       "0-20": {
+        "gt": 5364,
+        "missed": 4292,
+        "rate": 0.8
+       },
+       "20-40": {
+        "gt": 8956,
+        "missed": 1191,
+        "rate": 0.133
+       },
+       "40-10000": {
+        "gt": 6275,
+        "missed": 715,
+        "rate": 0.114
+       }
+      }
+     }
+    },
+    "yolo11_vn_1280_roi": {
+     "extras_by_height": {
+      "0-20": {
+       "nothing": 498,
+       "partial": 87,
+       "overlaps": 6,
+       "share_nothing": 0.843
+      },
+      "20-40": {
+       "nothing": 509,
+       "partial": 53,
+       "overlaps": 5,
+       "share_nothing": 0.898
+      },
+      "40-10000": {
+       "nothing": 504,
+       "partial": 141,
+       "overlaps": 60,
+       "share_nothing": 0.715
+      }
+     },
+     "miss_by_height": {
+      "gt": {
+       "0-20": {
+        "gt": 5330,
+        "missed": 3933,
+        "rate": 0.738
+       },
+       "20-40": {
+        "gt": 8228,
+        "missed": 901,
+        "rate": 0.11
+       },
+       "40-10000": {
+        "gt": 5655,
+        "missed": 555,
+        "rate": 0.098
+       }
+      },
+      "gt_plus_ref": {
+       "0-20": {
+        "gt": 5364,
+        "missed": 3944,
+        "rate": 0.735
+       },
+       "20-40": {
+        "gt": 8956,
+        "missed": 1169,
+        "rate": 0.131
+       },
+       "40-10000": {
+        "gt": 6275,
+        "missed": 797,
+        "rate": 0.127
+       }
+      }
+     }
+    }
+   }
+  },
+  "freeflow": {
+   "added_boxes": 14,
+   "operating_points": {
+    "best_448": {
+     "extras_by_height": {
+      "0-20": {
+       "nothing": 0,
+       "partial": 0,
+       "overlaps": 0,
+       "share_nothing": 0.0
+      },
+      "20-40": {
+       "nothing": 1,
+       "partial": 2,
+       "overlaps": 0,
+       "share_nothing": 0.333
+      },
+      "40-10000": {
+       "nothing": 7,
+       "partial": 1,
+       "overlaps": 0,
+       "share_nothing": 0.875
+      }
+     },
+     "miss_by_height": {
+      "gt": {
+       "0-20": {
+        "gt": 869,
+        "missed": 869,
+        "rate": 1.0
+       },
+       "20-40": {
+        "gt": 877,
+        "missed": 544,
+        "rate": 0.62
+       },
+       "40-10000": {
+        "gt": 548,
+        "missed": 64,
+        "rate": 0.117
+       }
+      },
+      "gt_plus_ref": {
+       "0-20": {
+        "gt": 869,
+        "missed": 869,
+        "rate": 1.0
+       },
+       "20-40": {
+        "gt": 884,
+        "missed": 548,
+        "rate": 0.62
+       },
+       "40-10000": {
+        "gt": 555,
+        "missed": 68,
+        "rate": 0.123
+       }
+      }
+     }
+    },
+    "best_640": {
+     "extras_by_height": {
+      "0-20": {
+       "nothing": 0,
+       "partial": 0,
+       "overlaps": 0,
+       "share_nothing": 0.0
+      },
+      "20-40": {
+       "nothing": 4,
+       "partial": 1,
+       "overlaps": 0,
+       "share_nothing": 0.8
+      },
+      "40-10000": {
+       "nothing": 7,
+       "partial": 3,
+       "overlaps": 0,
+       "share_nothing": 0.7
+      }
+     },
+     "miss_by_height": {
+      "gt": {
+       "0-20": {
+        "gt": 869,
+        "missed": 846,
+        "rate": 0.974
+       },
+       "20-40": {
+        "gt": 877,
+        "missed": 171,
+        "rate": 0.195
+       },
+       "40-10000": {
+        "gt": 548,
+        "missed": 50,
+        "rate": 0.091
+       }
+      },
+      "gt_plus_ref": {
+       "0-20": {
+        "gt": 869,
+        "missed": 846,
+        "rate": 0.974
+       },
+       "20-40": {
+        "gt": 884,
+        "missed": 175,
+        "rate": 0.198
+       },
+       "40-10000": {
+        "gt": 555,
+        "missed": 53,
+        "rate": 0.095
+       }
+      }
+     }
+    },
+    "best_960": {
+     "extras_by_height": {
+      "0-20": {
+       "nothing": 0,
+       "partial": 0,
+       "overlaps": 0,
+       "share_nothing": 0.0
+      },
+      "20-40": {
+       "nothing": 7,
+       "partial": 2,
+       "overlaps": 0,
+       "share_nothing": 0.778
+      },
+      "40-10000": {
+       "nothing": 3,
+       "partial": 3,
+       "overlaps": 0,
+       "share_nothing": 0.5
+      }
+     },
+     "miss_by_height": {
+      "gt": {
+       "0-20": {
+        "gt": 869,
+        "missed": 720,
+        "rate": 0.829
+       },
+       "20-40": {
+        "gt": 877,
+        "missed": 73,
+        "rate": 0.083
+       },
+       "40-10000": {
+        "gt": 548,
+        "missed": 57,
+        "rate": 0.104
+       }
+      },
+      "gt_plus_ref": {
+       "0-20": {
+        "gt": 869,
+        "missed": 720,
+        "rate": 0.829
+       },
+       "20-40": {
+        "gt": 884,
+        "missed": 75,
+        "rate": 0.085
+       },
+       "40-10000": {
+        "gt": 555,
+        "missed": 61,
+        "rate": 0.11
+       }
+      }
+     }
+    },
+    "best_1280": {
+     "extras_by_height": {
+      "0-20": {
+       "nothing": 0,
+       "partial": 12,
+       "overlaps": 0,
+       "share_nothing": 0.0
+      },
+      "20-40": {
+       "nothing": 7,
+       "partial": 12,
+       "overlaps": 1,
+       "share_nothing": 0.35
+      },
+      "40-10000": {
+       "nothing": 7,
+       "partial": 14,
+       "overlaps": 2,
+       "share_nothing": 0.304
+      }
+     },
+     "miss_by_height": {
+      "gt": {
+       "0-20": {
+        "gt": 869,
+        "missed": 542,
+        "rate": 0.624
+       },
+       "20-40": {
+        "gt": 877,
+        "missed": 60,
+        "rate": 0.068
+       },
+       "40-10000": {
+        "gt": 548,
+        "missed": 58,
+        "rate": 0.106
+       }
+      },
+      "gt_plus_ref": {
+       "0-20": {
+        "gt": 869,
+        "missed": 542,
+        "rate": 0.624
+       },
+       "20-40": {
+        "gt": 884,
+        "missed": 60,
+        "rate": 0.068
+       },
+       "40-10000": {
+        "gt": 555,
+        "missed": 58,
+        "rate": 0.105
+       }
+      }
+     }
+    },
+    "yolo11_vn_1280_roi": {
+     "extras_by_height": {
+      "0-20": {
+       "nothing": 9,
+       "partial": 35,
+       "overlaps": 0,
+       "share_nothing": 0.205
+      },
+      "20-40": {
+       "nothing": 6,
+       "partial": 9,
+       "overlaps": 0,
+       "share_nothing": 0.4
+      },
+      "40-10000": {
+       "nothing": 7,
+       "partial": 2,
+       "overlaps": 2,
+       "share_nothing": 0.636
+      }
+     },
+     "miss_by_height": {
+      "gt": {
+       "0-20": {
+        "gt": 869,
+        "missed": 506,
+        "rate": 0.582
+       },
+       "20-40": {
+        "gt": 877,
+        "missed": 132,
+        "rate": 0.151
+       },
+       "40-10000": {
+        "gt": 548,
+        "missed": 89,
+        "rate": 0.162
+       }
+      },
+      "gt_plus_ref": {
+       "0-20": {
+        "gt": 869,
+        "missed": 506,
+        "rate": 0.582
+       },
+       "20-40": {
+        "gt": 884,
+        "missed": 136,
+        "rate": 0.154
+       },
+       "40-10000": {
+        "gt": 555,
+        "missed": 93,
+        "rate": 0.168
+       }
+      }
+     }
+    }
+   }
+  },
+  "mixed": {
+   "added_boxes": 244,
+   "operating_points": {
+    "best_448": {
+     "extras_by_height": {
+      "0-20": {
+       "nothing": 0,
+       "partial": 0,
+       "overlaps": 0,
+       "share_nothing": 0.0
+      },
+      "20-40": {
+       "nothing": 73,
+       "partial": 2,
+       "overlaps": 1,
+       "share_nothing": 0.961
+      },
+      "40-10000": {
+       "nothing": 94,
+       "partial": 10,
+       "overlaps": 3,
+       "share_nothing": 0.879
+      }
+     },
+     "miss_by_height": {
+      "gt": {
+       "0-20": {
+        "gt": 1577,
+        "missed": 1576,
+        "rate": 0.999
+       },
+       "20-40": {
+        "gt": 3437,
+        "missed": 2472,
+        "rate": 0.719
+       },
+       "40-10000": {
+        "gt": 2254,
+        "missed": 238,
+        "rate": 0.106
+       }
+      },
+      "gt_plus_ref": {
+       "0-20": {
+        "gt": 1593,
+        "missed": 1592,
+        "rate": 0.999
+       },
+       "20-40": {
+        "gt": 3557,
+        "missed": 2559,
+        "rate": 0.719
+       },
+       "40-10000": {
+        "gt": 2362,
+        "missed": 298,
+        "rate": 0.126
+       }
+      }
+     }
+    },
+    "best_640": {
+     "extras_by_height": {
+      "0-20": {
+       "nothing": 0,
+       "partial": 0,
+       "overlaps": 0,
+       "share_nothing": 0.0
+      },
+      "20-40": {
+       "nothing": 81,
+       "partial": 2,
+       "overlaps": 0,
+       "share_nothing": 0.976
+      },
+      "40-10000": {
+       "nothing": 128,
+       "partial": 16,
+       "overlaps": 1,
+       "share_nothing": 0.883
+      }
+     },
+     "miss_by_height": {
+      "gt": {
+       "0-20": {
+        "gt": 1577,
+        "missed": 1522,
+        "rate": 0.965
+       },
+       "20-40": {
+        "gt": 3437,
+        "missed": 1300,
+        "rate": 0.378
+       },
+       "40-10000": {
+        "gt": 2254,
+        "missed": 97,
+        "rate": 0.043
+       }
+      },
+      "gt_plus_ref": {
+       "0-20": {
+        "gt": 1593,
+        "missed": 1538,
+        "rate": 0.965
+       },
+       "20-40": {
+        "gt": 3557,
+        "missed": 1375,
+        "rate": 0.387
+       },
+       "40-10000": {
+        "gt": 2362,
+        "missed": 144,
+        "rate": 0.061
+       }
+      }
+     }
+    },
+    "best_960": {
+     "extras_by_height": {
+      "0-20": {
+       "nothing": 2,
+       "partial": 0,
+       "overlaps": 0,
+       "share_nothing": 1.0
+      },
+      "20-40": {
+       "nothing": 84,
+       "partial": 39,
+       "overlaps": 2,
+       "share_nothing": 0.672
+      },
+      "40-10000": {
+       "nothing": 97,
+       "partial": 50,
+       "overlaps": 4,
+       "share_nothing": 0.642
+      }
+     },
+     "miss_by_height": {
+      "gt": {
+       "0-20": {
+        "gt": 1577,
+        "missed": 1338,
+        "rate": 0.848
+       },
+       "20-40": {
+        "gt": 3437,
+        "missed": 598,
+        "rate": 0.174
+       },
+       "40-10000": {
+        "gt": 2254,
+        "missed": 93,
+        "rate": 0.041
+       }
+      },
+      "gt_plus_ref": {
+       "0-20": {
+        "gt": 1593,
+        "missed": 1353,
+        "rate": 0.849
+       },
+       "20-40": {
+        "gt": 3557,
+        "missed": 660,
+        "rate": 0.186
+       },
+       "40-10000": {
+        "gt": 2362,
+        "missed": 142,
+        "rate": 0.06
+       }
+      }
+     }
+    },
+    "best_1280": {
+     "extras_by_height": {
+      "0-20": {
+       "nothing": 16,
+       "partial": 2,
+       "overlaps": 0,
+       "share_nothing": 0.889
+      },
+      "20-40": {
+       "nothing": 120,
+       "partial": 22,
+       "overlaps": 0,
+       "share_nothing": 0.845
+      },
+      "40-10000": {
+       "nothing": 108,
+       "partial": 29,
+       "overlaps": 20,
+       "share_nothing": 0.688
+      }
+     },
+     "miss_by_height": {
+      "gt": {
+       "0-20": {
+        "gt": 1577,
+        "missed": 1056,
+        "rate": 0.67
+       },
+       "20-40": {
+        "gt": 3437,
+        "missed": 242,
+        "rate": 0.07
+       },
+       "40-10000": {
+        "gt": 2254,
+        "missed": 101,
+        "rate": 0.045
+       }
+      },
+      "gt_plus_ref": {
+       "0-20": {
+        "gt": 1593,
+        "missed": 1056,
+        "rate": 0.663
+       },
+       "20-40": {
+        "gt": 3557,
+        "missed": 242,
+        "rate": 0.068
+       },
+       "40-10000": {
+        "gt": 2362,
+        "missed": 101,
+        "rate": 0.043
+       }
+      }
+     }
+    },
+    "yolo11_vn_1280_roi": {
+     "extras_by_height": {
+      "0-20": {
+       "nothing": 12,
+       "partial": 16,
+       "overlaps": 2,
+       "share_nothing": 0.4
+      },
+      "20-40": {
+       "nothing": 112,
+       "partial": 3,
+       "overlaps": 2,
+       "share_nothing": 0.957
+      },
+      "40-10000": {
+       "nothing": 89,
+       "partial": 14,
+       "overlaps": 3,
+       "share_nothing": 0.84
+      }
+     },
+     "miss_by_height": {
+      "gt": {
+       "0-20": {
+        "gt": 1577,
+        "missed": 925,
+        "rate": 0.587
+       },
+       "20-40": {
+        "gt": 3437,
+        "missed": 175,
+        "rate": 0.051
+       },
+       "40-10000": {
+        "gt": 2254,
+        "missed": 65,
+        "rate": 0.029
+       }
+      },
+      "gt_plus_ref": {
+       "0-20": {
+        "gt": 1593,
+        "missed": 941,
+        "rate": 0.591
+       },
+       "20-40": {
+        "gt": 3557,
+        "missed": 250,
+        "rate": 0.07
+       },
+       "40-10000": {
+        "gt": 2362,
+        "missed": 127,
+        "rate": 0.054
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

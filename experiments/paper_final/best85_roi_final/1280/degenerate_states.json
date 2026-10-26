@@ -1,0 +1,262 @@
+{
+ "run": "data\\processed\\paper_runs\\best85_roi_final\\1280",
+ "identical_to_run": {
+  "baseline": true,
+  "ctrv": true,
+  "ctrv_nsa": true,
+  "ctrv_gate": true,
+  "ctrv_gate_nsa": true,
+  "c1_ctrv_gate": true,
+  "c1c2c3": true,
+  "ocsort": true,
+  "ocsort_matched": true,
+  "ocsort_byte": true,
+  "botsort": true,
+  "botsort_matched": true
+ },
+ "counts": {
+  "baseline": {},
+  "ctrv": {},
+  "ctrv_nsa": {},
+  "ctrv_gate": {},
+  "ctrv_gate_nsa": {},
+  "c1_ctrv_gate": {},
+  "c1c2c3": {},
+  "ocsort": {},
+  "ocsort_matched": {},
+  "ocsort_byte": {
+   "state/non-finite/outside": 1
+  },
+  "botsort": {
+   "state/inverted/outside": 6,
+   "state/inverted/gt": 2
+  },
+  "botsort_matched": {
+   "state/inverted/outside": 6,
+   "state/inverted/gt": 2
+  }
+ },
+ "events": [
+  {
+   "arm": "ocsort_byte",
+   "frame": 238,
+   "segment": "outside",
+   "box": [
+    "nan",
+    "nan",
+    "nan",
+    "nan"
+   ],
+   "kind": "non-finite",
+   "site": "state"
+  },
+  {
+   "arm": "botsort",
+   "frame": 155,
+   "segment": "outside",
+   "box": [
+    786.84,
+    452.86,
+    799.89,
+    449.67
+   ],
+   "kind": "inverted",
+   "site": "state"
+  },
+  {
+   "arm": "botsort",
+   "frame": 2702,
+   "segment": "mixed",
+   "box": [
+    804.73,
+    368.78,
+    800.0,
+    449.54
+   ],
+   "kind": "inverted",
+   "site": "state"
+  },
+  {
+   "arm": "botsort",
+   "frame": 2729,
+   "segment": "mixed",
+   "box": [
+    784.23,
+    453.03,
+    800.02,
+    450.25
+   ],
+   "kind": "inverted",
+   "site": "state"
+  },
+  {
+   "arm": "botsort",
+   "frame": 3125,
+   "segment": "outside",
+   "box": [
+    327.65,
+    450.35,
+    400.1,
+    450.11
+   ],
+   "kind": "inverted",
+   "site": "state"
+  },
+  {
+   "arm": "botsort",
+   "frame": 3380,
+   "segment": "outside",
+   "box": [
+    299.0,
+    450.55,
+    395.88,
+    450.17
+   ],
+   "kind": "inverted",
+   "site": "state"
+  },
+  {
+   "arm": "botsort",
+   "frame": 6152,
+   "segment": "outside",
+   "box": [
+    801.6,
+    403.24,
+    800.01,
+    449.92
+   ],
+   "kind": "inverted",
+   "site": "state"
+  },
+  {
+   "arm": "botsort",
+   "frame": 6212,
+   "segment": "outside",
+   "box": [
+    800.79,
+    373.88,
+    800.01,
+    450.03
+   ],
+   "kind": "inverted",
+   "site": "state"
+  },
+  {
+   "arm": "botsort",
+   "frame": 10697,
+   "segment": "outside",
+   "box": [
+    404.03,
+    451.77,
+    483.49,
+    450.27
+   ],
+   "kind": "inverted",
+   "site": "state"
+  },
+  {
+   "arm": "botsort_matched",
+   "frame": 155,
+   "segment": "outside",
+   "box": [
+    786.84,
+    452.86,
+    799.89,
+    449.67
+   ],
+   "kind": "inverted",
+   "site": "state"
+  },
+  {
+   "arm": "botsort_matched",
+   "frame": 2702,
+   "segment": "mixed",
+   "box": [
+    804.73,
+    368.78,
+    800.0,
+    449.54
+   ],
+   "kind": "inverted",
+   "site": "state"
+  },
+  {
+   "arm": "botsort_matched",
+   "frame": 2729,
+   "segment": "mixed",
+   "box": [
+    784.23,
+    453.03,
+    800.02,
+    450.25
+   ],
+   "kind": "inverted",
+   "site": "state"
+  },
+  {
+   "arm": "botsort_matched",
+   "frame": 3125,
+   "segment": "outside",
+   "box": [
+    317.5,
+    451.34,
+    405.03,
+    449.98
+   ],
+   "kind": "inverted",
+   "site": "state"
+  },
+  {
+   "arm": "botsort_matched",
+   "frame": 3380,
+   "segment": "outside",
+   "box": [
+    299.0,
+    450.55,
+    395.89,
+    450.17
+   ],
+   "kind": "inverted",
+   "site": "state"
+  },
+  {
+   "arm": "botsort_matched",
+   "frame": 6152,
+   "segment": "outside",
+   "box": [
+    801.6,
+    403.24,
+    800.01,
+    449.92
+   ],
+   "kind": "inverted",
+   "site": "state"
+  },
+  {
+   "arm": "botsort_matched",
+   "frame": 6212,
+   "segment": "outside",
+   "box": [
+    800.79,
+    373.88,
+    800.01,
+    450.03
+   ],
+   "kind": "inverted",
+   "site": "state"
+  },
+  {
+   "arm": "botsort_matched",
+   "frame": 10697,
+   "segment": "outside",
+   "box": [
+    404.03,
+    451.77,
+    483.49,
+    450.27
+   ],
+   "kind": "inverted",
+   "site": "state"
+  }
+ ]
+}

@@ -1,0 +1,84 @@
+# ── Data & weights (IP protection) ───────────────────────────────────
+data/raw/
+data/processed/
+data/annotations/
+weights/
+*.pt
+*.pth
+*.onnx
+
+# ── Experiment outputs ────────────────────────────────────────────────
+experiments/*/results.json
+experiments/*/logs/
+# Footage-derived artifacts (IP protection): rendered clips are real
+# imagery; detections/track dumps are large per-run binaries.
+experiments/**/*.mp4
+experiments/**/detections*.npz
+experiments/**/tracks_*.json
+# QA sheets rendered from real frames (69 MB) — same IP rule as footage.
+# candidates.csv carries GT box geometry, so it goes too. decisions.csv is
+# only verdicts and indices: that IS tracked, it is the provenance for a
+# published claim.
+experiments/**/split_candidates/*.png
+experiments/**/split_candidates/candidates.csv
+# Reviewed GT contains footage-derived box coordinates and local review records.
+# *_review = every review bundle (mixed_review and the held-out cameras').
+experiments/gt_qa/reviewed/
+experiments/gt_qa/*_review/*.png
+experiments/gt_qa/*_review/source_gt.txt
+experiments/gt_qa/*_review/manifest.json
+experiments/gt_qa/*_review/edits.json
+experiments/gt_qa/*_review/roi.json
+experiments/gt_qa/*_review/roi_active.json
+experiments/gt_qa/*_review/roi_scopes.json
+experiments/gt_qa/*_review/roi_reviews/
+experiments/gt_qa/mixed_reviewed/
+experiments/gt_newcam/*/reviewed/
+
+# ── Python ────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+.venv/
+
+# ── Paper ─────────────────────────────────────────────────────────────
+# Source IS version controlled (9-week journal push needs history/backup).
+# Build artifacts and footage-derived figures are not.
+paper/**/*.pdf
+!paper/figures/fig1_pipeline_overview.pdf
+paper/*.zip
+paper/**/*.png
+paper/**/*.jpg
+paper/*.aux
+paper/*.log
+paper/*.blg
+paper/*.bbl
+paper/*.out
+paper/*.synctex.gz
+
+# ── Third-party sources cloned locally (ByteTrack, etc.) ─────────────
+lib/
+
+# OpenVINO's kernel compiler drops this in the repo root on export.
+kernel.errors.txt
+
+# ── OS ────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Secrets ───────────────────────────────────────────────────────────
+.env
+secrets.yaml
+# real credentials; tele_api.example.yaml stays committed as a template
+configs/tele_api.yaml
+
+# ── Local working notes & tooling (not shared) ───────────────────────
+SCOPE.md
+
+# Detector training run: keep the records and metric plots; the batch mosaics are dataset images
+ket_qua_train/*.jpg
+
+# Manuscript sources are kept outside this repository
+paper/

@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "moto-ctrv-tracking: class-conditioned CTRV tracking for motorcycle-dominant mixed traffic"
+type: software
+license: MIT
+repository-code: "https://github.com/tronghia256-EdgeAI/moto-ctrv-tracking"
+date-released: "2026-10-26"
+authors:
+  - family-names: Le
+    given-names: Trong Nghia
+  - family-names: Nguyen
+    given-names: Viet Nam
+  - family-names: Ho
+    given-names: Minh Hieu
+  - family-names: Vo
+    given-names: Xuan Lanh
+  - family-names: Nguyen
+    given-names: Thien Bao
+    email: baont@ueh.edu.vn
+    affiliation: "University of Economics Ho Chi Minh City (UEH)"
+keywords:
+  - multi-object tracking
+  - extended Kalman filter
+  - mixed traffic
+  - motorcycles
+  - annotation bias

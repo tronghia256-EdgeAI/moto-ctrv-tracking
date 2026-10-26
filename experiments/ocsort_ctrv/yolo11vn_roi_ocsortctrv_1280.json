@@ -1,0 +1,73 @@
+{
+ "run": "<workspace>/CAAP\\data\\processed\\paper_runs\\yolo11vn_roi_ocsortctrv\\1280",
+ "pair": "ocsort_matched_ctrv - ocsort_matched",
+ "mixed_block_ci": {
+  "block_frames": 30,
+  "seed": [
+   20261013,
+   30
+  ],
+  "replicates": 10000,
+  "mota": {
+   "mean": -0.009255723468733133,
+   "ci95": [
+    -0.014761844649641757,
+    -0.003764395382265591
+   ]
+  },
+  "idf1": {
+   "mean": -0.004340984575579193,
+   "ci95": [
+    -0.009435903295287795,
+    0.0007701207891757266
+   ]
+  }
+ },
+ "secondary": {
+  "mixed": {
+   "idf1": {
+    "ocsort_matched_ctrv": 0.8637722419928826,
+    "ocsort_matched": 0.8699763593380615
+   },
+   "idf1_diff": -0.0062041173451788945,
+   "idsw": {
+    "ocsort_matched_ctrv": 18,
+    "ocsort_matched": 21
+   },
+   "exact_box_share": {
+    "ocsort_matched_ctrv": 0.0001375894331315355,
+    "ocsort_matched": 0.0001375894331315355
+   }
+  },
+  "dense": {
+   "idf1": {
+    "ocsort_matched_ctrv": 0.7678008653383901,
+    "ocsort_matched": 0.7609387644995954
+   },
+   "idf1_diff": 0.0068621008387946825,
+   "idsw": {
+    "ocsort_matched_ctrv": 155,
+    "ocsort_matched": 138
+   },
+   "exact_box_share": {
+    "ocsort_matched_ctrv": 5.204809243741217e-05,
+    "ocsort_matched": 5.204809243741217e-05
+   }
+  },
+  "freeflow": {
+   "idf1": {
+    "ocsort_matched_ctrv": 0.7336631085654778,
+    "ocsort_matched": 0.7322318384474167
+   },
+   "idf1_diff": 0.001431270118061101,
+   "idsw": {
+    "ocsort_matched_ctrv": 5,
+    "ocsort_matched": 5
+   },
+   "exact_box_share": {
+    "ocsort_matched_ctrv": 0.00043591979075850045,
+    "ocsort_matched": 0.00043591979075850045
+   }
+  }
+ }
+}

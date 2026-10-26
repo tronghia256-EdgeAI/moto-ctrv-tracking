@@ -1,0 +1,18 @@
+{
+  "tracking": {
+    "mota": 1.0,
+    "idf1": 1.0,
+    "track_fragmentation_rate": 0.0,
+    "num_switches": 0,
+    "num_fragmentations": 0,
+    "num_misses": 0,
+    "num_false_positives": 0
+  },
+  "system": {
+    "fps": 429.4583207087819,
+    "latency_ms": 2.3285146701770523
+  },
+  "num_frames": 300,
+  "mode": "synthetic",
+  "config": "configs/exp3_C1C2C3.yaml"
+}

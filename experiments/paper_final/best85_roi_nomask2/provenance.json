@@ -1,0 +1,44 @@
+{
+ "run": "data\\processed\\paper_runs\\best85_roi_nomask2",
+ "protocol_sha256": "06456ac6dd3a0747688eea234f6f4047aef8cb52e6947ce85423eb2798c77f15",
+ "commit": "3cff2dc",
+ "branch": "exp/roi-filter-only",
+ "cwd": "<workspace>/CAAP-nomask (git worktree)",
+ "launched": "2026-10-14 06:57",
+ "launcher": {
+  "output": "<workspace>/CAAP/data/processed/paper_runs/best85_roi_nomask2",
+  "started_local": "2026-10-14 06:57",
+  "cwd": "<workspace>/CAAP-nomask (git worktree, branch exp/roi-filter-only)",
+  "args": [
+   "--no-roi-pixel-mask",
+   "--receipt",
+   "<workspace>/CAAP/data/annotations/paper_gt_reconciliation/reconcile_90026162a7963db7/reconciled_e880ead8.json",
+   "--video",
+   "<workspace>/CAAP/data/raw/videos/NKKN-VoThiSau 2017-07-18_08_00_00_000.asf",
+   "--weights",
+   "<workspace>/CAAP/ket_qua_train/best.pt",
+   "--trackeval",
+   "<scratch>\\pydeps",
+   "--sizes",
+   "448",
+   "640",
+   "960",
+   "1280",
+   "--out",
+   "<workspace>/CAAP/data/processed/paper_runs/best85_roi_nomask2"
+  ],
+  "commands": "run_roi_paper --phase cache, then replay, then score, with args",
+  "commit": "3cff2dc",
+  "replaces": "best85_roi_nomask (stopped: its code failed scoring on a rounding-boundary box)",
+  "purpose": "ABLATION pending Nghia decision: full-frame detection + bottom-centre ROI filter instead of the pixel mask",
+  "launched_by": "session caap-cb"
+ },
+ "status": {
+  "status": "COMPLETED",
+  "requested_phase": "score",
+  "protocol_sha256": "06456ac6dd3a0747688eea234f6f4047aef8cb52e6947ce85423eb2798c77f15",
+  "size": 1280,
+  "phase": "score"
+ },
+ "note": "Masking ablation (option B keeps the mask as primary): full-frame detection plus the bottom-centre ROI filter, no pixel mask. Replaces best85_roi_nomask (stopped). Paused and resumed several times; chunks and dumps are atomic."
+}

@@ -1,0 +1,158 @@
+{
+  "threshold_bits": 10,
+  "step_sec": 1.0,
+  "training_images": 4980,
+  "best_distance_histogram": [
+    13,
+    0,
+    15,
+    0,
+    18,
+    0,
+    16,
+    0,
+    8,
+    0,
+    9,
+    0,
+    58,
+    0,
+    315,
+    0,
+    1355,
+    0,
+    2198,
+    0,
+    920,
+    0,
+    55,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "clips": {
+    "7_20_2017 11_59_59 AM (UTC+07_00).mkv": {
+      "frames_read": 13500,
+      "frames_hashed": 900,
+      "matched_images": {
+        "train": 43,
+        "valid": 6,
+        "test": 6
+      }
+    },
+    "7_20_2017 4_59_59 PM (UTC+07_00).mkv": {
+      "frames_read": 13500,
+      "frames_hashed": 900,
+      "matched_images": {
+        "train": 17,
+        "valid": 0,
+        "test": 2
+      }
+    },
+    "CongHoa-TruongChinh 2017-07-18_17_00_00_000.asf": {
+      "frames_read": 13707,
+      "frames_hashed": 549,
+      "matched_images": {
+        "train": 0,
+        "valid": 0,
+        "test": 0
+      }
+    },
+    "CongHoa-UtTich1 2017-07-17_14.15.asf": {
+      "frames_read": 13662,
+      "frames_hashed": 547,
+      "matched_images": {
+        "train": 2,
+        "valid": 0,
+        "test": 0
+      }
+    },
+    "CongHoa-UtTich1 2017-07-17_17.15.asf": {
+      "frames_read": 13586,
+      "frames_hashed": 544,
+      "matched_images": {
+        "train": 0,
+        "valid": 0,
+        "test": 1
+      }
+    },
+    "DuongBaTrac-TaQuangBuu1 2017-07-18_08_00_00_000.asf": {
+      "frames_read": 13721,
+      "frames_hashed": 549,
+      "matched_images": {
+        "train": 0,
+        "valid": 0,
+        "test": 0
+      }
+    },
+    "HAMQ1 - 2017-07-20 15-00-07-155.mov": {
+      "frames_read": 53936,
+      "frames_hashed": 899,
+      "matched_images": {
+        "train": 2,
+        "valid": 0,
+        "test": 0
+      }
+    },
+    "NKKN-VoThiSau 2017-07-18_08_00_00_000.asf": {
+      "frames_read": 13726,
+      "frames_hashed": 550,
+      "matched_images": {
+        "train": 0,
+        "valid": 0,
+        "test": 0
+      }
+    }
+  },
+  "positive_control": {
+    "7_20_2017-11_59_59": {
+      "images": 55,
+      "matched_own_clip": 55,
+      "max_distance_to_own_clip": 10
+    },
+    "7_20_2017-4_59_59": {
+      "images": 20,
+      "matched_own_clip": 19,
+      "max_distance_to_own_clip": 12
+    }
+  }
+}

@@ -1,0 +1,639 @@
+{
+ "run": "data\\processed\\paper_runs\\best85_roi_final\\960",
+ "identical_to_run": {
+  "baseline": true,
+  "ctrv": true,
+  "ctrv_nsa": true,
+  "ctrv_gate": true,
+  "ctrv_gate_nsa": true,
+  "c1_ctrv_gate": true,
+  "c1c2c3": true,
+  "ocsort": true,
+  "ocsort_matched": true,
+  "ocsort_byte": true,
+  "botsort": true,
+  "botsort_matched": true
+ },
+ "counts": {
+  "baseline": {},
+  "ctrv": {},
+  "ctrv_nsa": {},
+  "ctrv_gate": {},
+  "ctrv_gate_nsa": {},
+  "c1_ctrv_gate": {},
+  "c1c2c3": {},
+  "ocsort": {
+   "state/non-finite/outside": 1
+  },
+  "ocsort_matched": {},
+  "ocsort_byte": {},
+  "botsort": {
+   "state/inverted/outside": 18,
+   "state/inverted/gt": 3
+  },
+  "botsort_matched": {
+   "state/inverted/outside": 19,
+   "state/inverted/gt": 5
+  }
+ },
+ "events": [
+  {
+   "arm": "ocsort",
+   "frame": 3675,
+   "segment": "outside",
+   "box": [
+    "nan",
+    "nan",
+    "nan",
+    "nan"
+   ],
+   "kind": "non-finite",
+   "site": "state"
+  },
+  {
+   "arm": "botsort",
+   "frame": 155,
+   "segment": "outside",
+   "box": [
+    774.45,
+    452.1,
+    800.34,
+    450.0
+   ],
+   "kind": "inverted",
+   "site": "state"
+  },
+  {
+   "arm": "botsort",
+   "frame": 426,
+   "segment": "outside",
+   "box": [
+    615.6,
+    450.08,
+    780.5,
+    450.0
+   ],
+   "kind": "inverted",
+   "site": "state"
+  },
+  {
+   "arm": "botsort",
+   "frame": 495,
+   "segment": "outside",
+   "box": [
+    273.75,
+    450.27,
+    316.05,
+    450.0
+   ],
+   "kind": "inverted",
+   "site": "state"
+  },
+  {
+   "arm": "botsort",
+   "frame": 2729,
+   "segment": "mixed",
+   "box": [
+    773.63,
+    453.08,
+    800.04,
+    450.0
+   ],
+   "kind": "inverted",
+   "site": "state"
+  },
+  {
+   "arm": "botsort",
+   "frame": 3380,
+   "segment": "outside",
+   "box": [
+    305.53,
+    450.4,
+    414.58,
+    450.0
+   ],
+   "kind": "inverted",
+   "site": "state"
+  },
+  {
+   "arm": "botsort",
+   "frame": 3447,
+   "segment": "outside",
+   "box": [
+    296.31,
+    452.66,
+    471.57,
+    450.0
+   ],
+   "kind": "inverted",
+   "site": "state"
+  },
+  {
+   "arm": "botsort",
+   "frame": 3676,
+   "segment": "outside",
+   "box": [
+    806.52,
+    425.89,
+    800.01,
+    450.0
+   ],
+   "kind": "inverted",
+   "site": "state"
+  },
+  {
+   "arm": "botsort",
+   "frame": 3819,
+   "segment": "outside",
+   "box": [
+    409.74,
+    450.86,
+    455.8,
+    450.0
+   ],
+   "kind": "inverted",
+   "site": "state"
+  },
+  {
+   "arm": "botsort",
+   "frame": 4523,
+   "segment": "outside",
+   "box": [
+    280.23,
+    455.04,
+    405.91,
+    450.0
+   ],
+   "kind": "inverted",
+   "site": "state"
+  },
+  {
+   "arm": "botsort",
+   "frame": 5314,
+   "segment": "outside",
+   "box": [
+    328.08,
+    450.4,
+    363.77,
+    450.0
+   ],
+   "kind": "inverted",
+   "site": "state"
+  },
+  {
+   "arm": "botsort",
+   "frame": 5843,
+   "segment": "outside",
+   "box": [
+    497.6,
+    450.61,
+    689.96,
+    450.0
+   ],
+   "kind": "inverted",
+   "site": "state"
+  },
+  {
+   "arm": "botsort",
+   "frame": 5969,
+   "segment": "outside",
+   "box": [
+    280.73,
+    450.6,
+    464.22,
+    450.0
+   ],
+   "kind": "inverted",
+   "site": "state"
+  },
+  {
+   "arm": "botsort",
+   "frame": 6278,
+   "segment": "outside",
+   "box": [
+    800.92,
+    380.5,
+    800.0,
+    449.53
+   ],
+   "kind": "inverted",
+   "site": "state"
+  },
+  {
+   "arm": "botsort",
+   "frame": 7595,
+   "segment": "outside",
+   "box": [
+    427.66,
+    452.28,
+    557.05,
+    450.0
+   ],
+   "kind": "inverted",
+   "site": "state"
+  },
+  {
+   "arm": "botsort",
+   "frame": 8465,
+   "segment": "outside",
+   "box": [
+    280.35,
+    450.39,
+    414.15,
+    450.0
+   ],
+   "kind": "inverted",
+   "site": "state"
+  },
+  {
+   "arm": "botsort",
+   "frame": 8519,
+   "segment": "outside",
+   "box": [
+    300.47,
+    450.73,
+    436.41,
+    450.0
+   ],
+   "kind": "inverted",
+   "site": "state"
+  },
+  {
+   "arm": "botsort",
+   "frame": 8631,
+   "segment": "outside",
+   "box": [
+    325.69,
+    450.44,
+    374.68,
+    450.0
+   ],
+   "kind": "inverted",
+   "site": "state"
+  },
+  {
+   "arm": "botsort",
+   "frame": 8705,
+   "segment": "outside",
+   "box": [
+    354.49,
+    450.21,
+    403.86,
+    450.0
+   ],
+   "kind": "inverted",
+   "site": "state"
+  },
+  {
+   "arm": "botsort",
+   "frame": 10697,
+   "segment": "outside",
+   "box": [
+    369.39,
+    451.41,
+    504.59,
+    450.0
+   ],
+   "kind": "inverted",
+   "site": "state"
+  },
+  {
+   "arm": "botsort",
+   "frame": 10888,
+   "segment": "dense",
+   "box": [
+    301.26,
+    451.14,
+    416.49,
+    450.0
+   ],
+   "kind": "inverted",
+   "site": "state"
+  },
+  {
+   "arm": "botsort",
+   "frame": 10951,
+   "segment": "dense",
+   "box": [
+    414.73,
+    451.9,
+    461.9,
+    450.0
+   ],
+   "kind": "inverted",
+   "site": "state"
+  },
+  {
+   "arm": "botsort_matched",
+   "frame": 155,
+   "segment": "outside",
+   "box": [
+    774.45,
+    452.1,
+    800.34,
+    450.0
+   ],
+   "kind": "inverted",
+   "site": "state"
+  },
+  {
+   "arm": "botsort_matched",
+   "frame": 426,
+   "segment": "outside",
+   "box": [
+    615.6,
+    450.08,
+    780.5,
+    450.0
+   ],
+   "kind": "inverted",
+   "site": "state"
+  },
+  {
+   "arm": "botsort_matched",
+   "frame": 495,
+   "segment": "outside",
+   "box": [
+    273.75,
+    450.27,
+    316.05,
+    450.0
+   ],
+   "kind": "inverted",
+   "site": "state"
+  },
+  {
+   "arm": "botsort_matched",
+   "frame": 2613,
+   "segment": "mixed",
+   "box": [
+    326.26,
+    450.69,
+    365.56,
+    450.0
+   ],
+   "kind": "inverted",
+   "site": "state"
+  },
+  {
+   "arm": "botsort_matched",
+   "frame": 2729,
+   "segment": "mixed",
+   "box": [
+    773.63,
+    453.08,
+    800.04,
+    450.0
+   ],
+   "kind": "inverted",
+   "site": "state"
+  },
+  {
+   "arm": "botsort_matched",
+   "frame": 3380,
+   "segment": "outside",
+   "box": [
+    305.53,
+    450.4,
+    414.58,
+    450.0
+   ],
+   "kind": "inverted",
+   "site": "state"
+  },
+  {
+   "arm": "botsort_matched",
+   "frame": 3447,
+   "segment": "outside",
+   "box": [
+    296.31,
+    452.66,
+    471.57,
+    450.0
+   ],
+   "kind": "inverted",
+   "site": "state"
+  },
+  {
+   "arm": "botsort_matched",
+   "frame": 3676,
+   "segment": "outside",
+   "box": [
+    805.81,
+    425.37,
+    800.01,
+    450.0
+   ],
+   "kind": "inverted",
+   "site": "state"
+  },
+  {
+   "arm": "botsort_matched",
+   "frame": 3819,
+   "segment": "outside",
+   "box": [
+    409.74,
+    450.86,
+    455.8,
+    450.0
+   ],
+   "kind": "inverted",
+   "site": "state"
+  },
+  {
+   "arm": "botsort_matched",
+   "frame": 3824,
+   "segment": "outside",
+   "box": [
+    494.62,
+    452.36,
+    546.69,
+    450.0
+   ],
+   "kind": "inverted",
+   "site": "state"
+  },
+  {
+   "arm": "botsort_matched",
+   "frame": 4523,
+   "segment": "outside",
+   "box": [
+    280.23,
+    455.04,
+    405.91,
+    450.0
+   ],
+   "kind": "inverted",
+   "site": "state"
+  },
+  {
+   "arm": "botsort_matched",
+   "frame": 5314,
+   "segment": "outside",
+   "box": [
+    328.08,
+    450.4,
+    363.77,
+    450.0
+   ],
+   "kind": "inverted",
+   "site": "state"
+  },
+  {
+   "arm": "botsort_matched",
+   "frame": 5843,
+   "segment": "outside",
+   "box": [
+    497.2,
+    450.47,
+    690.12,
+    450.0
+   ],
+   "kind": "inverted",
+   "site": "state"
+  },
+  {
+   "arm": "botsort_matched",
+   "frame": 5969,
+   "segment": "outside",
+   "box": [
+    280.73,
+    450.6,
+    464.22,
+    450.0
+   ],
+   "kind": "inverted",
+   "site": "state"
+  },
+  {
+   "arm": "botsort_matched",
+   "frame": 6278,
+   "segment": "outside",
+   "box": [
+    800.92,
+    380.5,
+    800.0,
+    449.53
+   ],
+   "kind": "inverted",
+   "site": "state"
+  },
+  {
+   "arm": "botsort_matched",
+   "frame": 7595,
+   "segment": "outside",
+   "box": [
+    427.66,
+    452.28,
+    557.05,
+    450.0
+   ],
+   "kind": "inverted",
+   "site": "state"
+  },
+  {
+   "arm": "botsort_matched",
+   "frame": 8465,
+   "segment": "outside",
+   "box": [
+    280.35,
+    450.39,
+    414.15,
+    450.0
+   ],
+   "kind": "inverted",
+   "site": "state"
+  },
+  {
+   "arm": "botsort_matched",
+   "frame": 8519,
+   "segment": "outside",
+   "box": [
+    300.47,
+    450.73,
+    436.41,
+    450.0
+   ],
+   "kind": "inverted",
+   "site": "state"
+  },
+  {
+   "arm": "botsort_matched",
+   "frame": 8631,
+   "segment": "outside",
+   "box": [
+    325.69,
+    450.44,
+    374.68,
+    450.0
+   ],
+   "kind": "inverted",
+   "site": "state"
+  },
+  {
+   "arm": "botsort_matched",
+   "frame": 8705,
+   "segment": "outside",
+   "box": [
+    354.49,
+    450.21,
+    403.86,
+    450.0
+   ],
+   "kind": "inverted",
+   "site": "state"
+  },
+  {
+   "arm": "botsort_matched",
+   "frame": 10697,
+   "segment": "outside",
+   "box": [
+    369.39,
+    451.41,
+    504.59,
+    450.0
+   ],
+   "kind": "inverted",
+   "site": "state"
+  },
+  {
+   "arm": "botsort_matched",
+   "frame": 10888,
+   "segment": "dense",
+   "box": [
+    301.26,
+    451.14,
+    416.49,
+    450.0
+   ],
+   "kind": "inverted",
+   "site": "state"
+  },
+  {
+   "arm": "botsort_matched",
+   "frame": 10951,
+   "segment": "dense",
+   "box": [
+    414.73,
+    451.9,
+    461.9,
+    450.0
+   ],
+   "kind": "inverted",
+   "site": "state"
+  },
+  {
+   "arm": "botsort_matched",
+   "frame": 10997,
+   "segment": "dense",
+   "box": [
+    377.58,
+    450.34,
+    428.98,
+    450.0
+   ],
+   "kind": "inverted",
+   "site": "state"
+  }
+ ]
+}

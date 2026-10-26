@@ -1,0 +1,10 @@
+# configs/baseline.yaml — Ablation Exp 0
+# YOLO11 + ByteTrack original, no adaptive components
+
+ablation:
+  use_C1_adaptive: false
+  use_C2_ctrv: false
+  use_C3_reliability: false
+
+# All other keys inherited from default.yaml
+# TODO: implement config inheritance in Pipeline.from_config()

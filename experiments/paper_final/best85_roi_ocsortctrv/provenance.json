@@ -1,0 +1,42 @@
+{
+ "run": "data\\processed\\paper_runs\\best85_roi_ocsortctrv",
+ "protocol_sha256": "50805b309c1a42bbf7838c01aaf6ba54b7f6f55c20cfd995a77aeba8268236c9",
+ "commit": "2d50fae",
+ "branch": "exp/ocsort-ctrv",
+ "cwd": "<workspace>/CAAP-ocsort (git worktree)",
+ "launched": "2026-10-15 00:34",
+ "launcher": {
+  "output": "<workspace>/CAAP/data/processed/paper_runs/best85_roi_ocsortctrv",
+  "started_local": "2026-10-15 00:34",
+  "cwd": "<workspace>/CAAP-ocsort (git worktree, branch exp/ocsort-ctrv)",
+  "args": [
+   "--receipt",
+   "<workspace>/CAAP/data/annotations/paper_gt_reconciliation/reconcile_90026162a7963db7/reconciled_e880ead8.json",
+   "--video",
+   "<workspace>/CAAP/data/raw/videos/NKKN-VoThiSau 2017-07-18_08_00_00_000.asf",
+   "--trackeval",
+   "<scratch>\\pydeps",
+   "--weights",
+   "<workspace>/CAAP/ket_qua_train/best.pt",
+   "--sizes",
+   "448",
+   "640",
+   "960",
+   "1280",
+   "--out",
+   "<workspace>/CAAP/data/processed/paper_runs/best85_roi_ocsortctrv"
+  ],
+  "commands": "run_roi_paper --phase cache, then replay, then score, with args",
+  "commit": "2d50fae",
+  "purpose": "Pre-registered OC-SORT+C2 test (experiments/ocsort_ctrv/evidence.md): new arm ocsort_matched_ctrv, masked protocol (option B); every other arm must reproduce best85_roi_final",
+  "launched_by": "session caap-cb (night fallback bbc1270f; benchmark stopped: CPU throttled)"
+ },
+ "status": {
+  "status": "COMPLETED",
+  "requested_phase": "score",
+  "protocol_sha256": "50805b309c1a42bbf7838c01aaf6ba54b7f6f55c20cfd995a77aeba8268236c9",
+  "size": 1280,
+  "phase": "score"
+ },
+ "note": "Pre-registered OC-SORT+C2 test (experiments/ocsort_ctrv/evidence.md), masked protocol. Detections, C1 thresholds and all 12 earlier arms equal best85_roi_final exactly at 448/640/960/1280; the only new arm is ocsort_matched_ctrv."
+}

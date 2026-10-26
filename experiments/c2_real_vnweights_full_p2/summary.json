@@ -1,0 +1,2400 @@
+{
+  "baseline": {
+    "unique_ids": 2105,
+    "unique_ids_motorcycle": 1534,
+    "mean_lifespan": 59.7,
+    "median_lifespan": 40.0,
+    "short_tracks(<10)": 359,
+    "reid_events": 155,
+    "reid_events_motorcycle": 96,
+    "events": [
+      {
+        "old_id": 141,
+        "new_id": 175,
+        "frame_lost": 77,
+        "frame_reborn": 98,
+        "gap": 21,
+        "iou": 0.635,
+        "cls": "car"
+      },
+      {
+        "old_id": 183,
+        "new_id": 217,
+        "frame_lost": 112,
+        "frame_reborn": 127,
+        "gap": 15,
+        "iou": 0.467,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 255,
+        "new_id": 297,
+        "frame_lost": 160,
+        "frame_reborn": 186,
+        "gap": 26,
+        "iou": 0.443,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 255,
+        "new_id": 313,
+        "frame_lost": 160,
+        "frame_reborn": 196,
+        "gap": 36,
+        "iou": 0.409,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 305,
+        "new_id": 357,
+        "frame_lost": 196,
+        "frame_reborn": 231,
+        "gap": 35,
+        "iou": 0.57,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 311,
+        "new_id": 362,
+        "frame_lost": 200,
+        "frame_reborn": 238,
+        "gap": 38,
+        "iou": 0.645,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 388,
+        "new_id": 410,
+        "frame_lost": 266,
+        "frame_reborn": 276,
+        "gap": 10,
+        "iou": 0.413,
+        "cls": "car"
+      },
+      {
+        "old_id": 426,
+        "new_id": 508,
+        "frame_lost": 331,
+        "frame_reborn": 363,
+        "gap": 32,
+        "iou": 0.352,
+        "cls": "car"
+      },
+      {
+        "old_id": 5,
+        "new_id": 505,
+        "frame_lost": 353,
+        "frame_reborn": 361,
+        "gap": 8,
+        "iou": 0.352,
+        "cls": "car"
+      },
+      {
+        "old_id": 514,
+        "new_id": 554,
+        "frame_lost": 369,
+        "frame_reborn": 400,
+        "gap": 31,
+        "iou": 0.595,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 517,
+        "new_id": 598,
+        "frame_lost": 425,
+        "frame_reborn": 441,
+        "gap": 16,
+        "iou": 0.365,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 660,
+        "new_id": 678,
+        "frame_lost": 540,
+        "frame_reborn": 548,
+        "gap": 8,
+        "iou": 0.324,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 689,
+        "new_id": 701,
+        "frame_lost": 555,
+        "frame_reborn": 564,
+        "gap": 9,
+        "iou": 0.382,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 649,
+        "new_id": 740,
+        "frame_lost": 577,
+        "frame_reborn": 585,
+        "gap": 8,
+        "iou": 0.67,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 631,
+        "new_id": 836,
+        "frame_lost": 595,
+        "frame_reborn": 625,
+        "gap": 30,
+        "iou": 0.586,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 757,
+        "new_id": 873,
+        "frame_lost": 617,
+        "frame_reborn": 641,
+        "gap": 24,
+        "iou": 0.365,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 757,
+        "new_id": 893,
+        "frame_lost": 617,
+        "frame_reborn": 652,
+        "gap": 35,
+        "iou": 0.584,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 773,
+        "new_id": 955,
+        "frame_lost": 643,
+        "frame_reborn": 679,
+        "gap": 36,
+        "iou": 0.324,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 919,
+        "new_id": 1018,
+        "frame_lost": 680,
+        "frame_reborn": 718,
+        "gap": 38,
+        "iou": 0.307,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 912,
+        "new_id": 1029,
+        "frame_lost": 716,
+        "frame_reborn": 724,
+        "gap": 8,
+        "iou": 0.463,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 880,
+        "new_id": 1077,
+        "frame_lost": 736,
+        "frame_reborn": 757,
+        "gap": 21,
+        "iou": 0.344,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 1010,
+        "new_id": 1070,
+        "frame_lost": 736,
+        "frame_reborn": 754,
+        "gap": 18,
+        "iou": 0.715,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 1043,
+        "new_id": 1145,
+        "frame_lost": 773,
+        "frame_reborn": 793,
+        "gap": 20,
+        "iou": 0.56,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 1241,
+        "new_id": 1291,
+        "frame_lost": 860,
+        "frame_reborn": 894,
+        "gap": 34,
+        "iou": 0.7,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 1168,
+        "new_id": 1289,
+        "frame_lost": 878,
+        "frame_reborn": 894,
+        "gap": 16,
+        "iou": 0.502,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 1291,
+        "new_id": 1361,
+        "frame_lost": 916,
+        "frame_reborn": 945,
+        "gap": 29,
+        "iou": 0.383,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 1350,
+        "new_id": 1372,
+        "frame_lost": 932,
+        "frame_reborn": 951,
+        "gap": 19,
+        "iou": 0.624,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 1350,
+        "new_id": 1388,
+        "frame_lost": 932,
+        "frame_reborn": 961,
+        "gap": 29,
+        "iou": 0.319,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 1243,
+        "new_id": 1372,
+        "frame_lost": 937,
+        "frame_reborn": 951,
+        "gap": 14,
+        "iou": 0.464,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 1230,
+        "new_id": 1392,
+        "frame_lost": 941,
+        "frame_reborn": 964,
+        "gap": 23,
+        "iou": 0.626,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 1295,
+        "new_id": 1372,
+        "frame_lost": 944,
+        "frame_reborn": 951,
+        "gap": 7,
+        "iou": 0.421,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 1421,
+        "new_id": 1552,
+        "frame_lost": 1015,
+        "frame_reborn": 1047,
+        "gap": 32,
+        "iou": 0.717,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 1425,
+        "new_id": 1552,
+        "frame_lost": 1023,
+        "frame_reborn": 1047,
+        "gap": 24,
+        "iou": 0.401,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 1511,
+        "new_id": 1575,
+        "frame_lost": 1039,
+        "frame_reborn": 1061,
+        "gap": 22,
+        "iou": 0.329,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 1511,
+        "new_id": 1581,
+        "frame_lost": 1039,
+        "frame_reborn": 1064,
+        "gap": 25,
+        "iou": 0.344,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 1511,
+        "new_id": 1603,
+        "frame_lost": 1039,
+        "frame_reborn": 1073,
+        "gap": 34,
+        "iou": 0.349,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 1501,
+        "new_id": 1597,
+        "frame_lost": 1063,
+        "frame_reborn": 1069,
+        "gap": 6,
+        "iou": 0.329,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 1602,
+        "new_id": 1653,
+        "frame_lost": 1107,
+        "frame_reborn": 1109,
+        "gap": 2,
+        "iou": 0.335,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 1670,
+        "new_id": 1743,
+        "frame_lost": 1163,
+        "frame_reborn": 1176,
+        "gap": 13,
+        "iou": 0.486,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 1721,
+        "new_id": 1756,
+        "frame_lost": 1169,
+        "frame_reborn": 1206,
+        "gap": 37,
+        "iou": 0.352,
+        "cls": "car"
+      },
+      {
+        "old_id": 1718,
+        "new_id": 1756,
+        "frame_lost": 1171,
+        "frame_reborn": 1206,
+        "gap": 35,
+        "iou": 0.33,
+        "cls": "car"
+      },
+      {
+        "old_id": 1746,
+        "new_id": 1790,
+        "frame_lost": 1184,
+        "frame_reborn": 1224,
+        "gap": 40,
+        "iou": 0.448,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 1739,
+        "new_id": 1804,
+        "frame_lost": 1203,
+        "frame_reborn": 1241,
+        "gap": 38,
+        "iou": 0.38,
+        "cls": "car"
+      },
+      {
+        "old_id": 1764,
+        "new_id": 1802,
+        "frame_lost": 1211,
+        "frame_reborn": 1240,
+        "gap": 29,
+        "iou": 0.531,
+        "cls": "car"
+      },
+      {
+        "old_id": 1473,
+        "new_id": 1798,
+        "frame_lost": 1212,
+        "frame_reborn": 1238,
+        "gap": 26,
+        "iou": 0.413,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 1725,
+        "new_id": 1888,
+        "frame_lost": 1290,
+        "frame_reborn": 1296,
+        "gap": 6,
+        "iou": 0.302,
+        "cls": "car"
+      },
+      {
+        "old_id": 1845,
+        "new_id": 1918,
+        "frame_lost": 1294,
+        "frame_reborn": 1314,
+        "gap": 20,
+        "iou": 0.434,
+        "cls": "car"
+      },
+      {
+        "old_id": 1892,
+        "new_id": 1918,
+        "frame_lost": 1302,
+        "frame_reborn": 1314,
+        "gap": 12,
+        "iou": 0.337,
+        "cls": "car"
+      },
+      {
+        "old_id": 1923,
+        "new_id": 1977,
+        "frame_lost": 1330,
+        "frame_reborn": 1364,
+        "gap": 34,
+        "iou": 0.55,
+        "cls": "car"
+      },
+      {
+        "old_id": 1894,
+        "new_id": 1966,
+        "frame_lost": 1333,
+        "frame_reborn": 1355,
+        "gap": 22,
+        "iou": 0.384,
+        "cls": "car"
+      },
+      {
+        "old_id": 1894,
+        "new_id": 1977,
+        "frame_lost": 1333,
+        "frame_reborn": 1364,
+        "gap": 31,
+        "iou": 0.312,
+        "cls": "car"
+      },
+      {
+        "old_id": 1966,
+        "new_id": 2005,
+        "frame_lost": 1360,
+        "frame_reborn": 1379,
+        "gap": 19,
+        "iou": 0.375,
+        "cls": "car"
+      },
+      {
+        "old_id": 1949,
+        "new_id": 2063,
+        "frame_lost": 1388,
+        "frame_reborn": 1425,
+        "gap": 37,
+        "iou": 0.335,
+        "cls": "car"
+      },
+      {
+        "old_id": 2023,
+        "new_id": 2047,
+        "frame_lost": 1400,
+        "frame_reborn": 1412,
+        "gap": 12,
+        "iou": 0.644,
+        "cls": "car"
+      },
+      {
+        "old_id": 1978,
+        "new_id": 2063,
+        "frame_lost": 1405,
+        "frame_reborn": 1425,
+        "gap": 20,
+        "iou": 0.534,
+        "cls": "car"
+      },
+      {
+        "old_id": 1978,
+        "new_id": 2094,
+        "frame_lost": 1405,
+        "frame_reborn": 1442,
+        "gap": 37,
+        "iou": 0.601,
+        "cls": "car"
+      },
+      {
+        "old_id": 1997,
+        "new_id": 2087,
+        "frame_lost": 1421,
+        "frame_reborn": 1437,
+        "gap": 16,
+        "iou": 0.425,
+        "cls": "car"
+      },
+      {
+        "old_id": 2047,
+        "new_id": 2103,
+        "frame_lost": 1442,
+        "frame_reborn": 1450,
+        "gap": 8,
+        "iou": 0.395,
+        "cls": "car"
+      },
+      {
+        "old_id": 2047,
+        "new_id": 2138,
+        "frame_lost": 1442,
+        "frame_reborn": 1474,
+        "gap": 32,
+        "iou": 0.349,
+        "cls": "car"
+      },
+      {
+        "old_id": 2010,
+        "new_id": 2145,
+        "frame_lost": 1460,
+        "frame_reborn": 1478,
+        "gap": 18,
+        "iou": 0.395,
+        "cls": "car"
+      },
+      {
+        "old_id": 2080,
+        "new_id": 2140,
+        "frame_lost": 1475,
+        "frame_reborn": 1476,
+        "gap": 1,
+        "iou": 0.373,
+        "cls": "car"
+      },
+      {
+        "old_id": 2154,
+        "new_id": 2208,
+        "frame_lost": 1492,
+        "frame_reborn": 1517,
+        "gap": 25,
+        "iou": 0.305,
+        "cls": "car"
+      },
+      {
+        "old_id": 2154,
+        "new_id": 2213,
+        "frame_lost": 1492,
+        "frame_reborn": 1522,
+        "gap": 30,
+        "iou": 0.502,
+        "cls": "car"
+      },
+      {
+        "old_id": 2176,
+        "new_id": 2235,
+        "frame_lost": 1507,
+        "frame_reborn": 1531,
+        "gap": 24,
+        "iou": 0.369,
+        "cls": "car"
+      },
+      {
+        "old_id": 2204,
+        "new_id": 2223,
+        "frame_lost": 1517,
+        "frame_reborn": 1525,
+        "gap": 8,
+        "iou": 0.652,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 2186,
+        "new_id": 2254,
+        "frame_lost": 1522,
+        "frame_reborn": 1551,
+        "gap": 29,
+        "iou": 0.321,
+        "cls": "car"
+      },
+      {
+        "old_id": 2242,
+        "new_id": 2276,
+        "frame_lost": 1549,
+        "frame_reborn": 1570,
+        "gap": 21,
+        "iou": 0.334,
+        "cls": "car"
+      },
+      {
+        "old_id": 2197,
+        "new_id": 2276,
+        "frame_lost": 1555,
+        "frame_reborn": 1570,
+        "gap": 15,
+        "iou": 0.595,
+        "cls": "car"
+      },
+      {
+        "old_id": 2259,
+        "new_id": 2312,
+        "frame_lost": 1567,
+        "frame_reborn": 1587,
+        "gap": 20,
+        "iou": 0.51,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 2262,
+        "new_id": 2330,
+        "frame_lost": 1583,
+        "frame_reborn": 1606,
+        "gap": 23,
+        "iou": 0.35,
+        "cls": "car"
+      },
+      {
+        "old_id": 2452,
+        "new_id": 2489,
+        "frame_lost": 1742,
+        "frame_reborn": 1747,
+        "gap": 5,
+        "iou": 0.796,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 2524,
+        "new_id": 2575,
+        "frame_lost": 1762,
+        "frame_reborn": 1773,
+        "gap": 11,
+        "iou": 0.375,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 2558,
+        "new_id": 2625,
+        "frame_lost": 1778,
+        "frame_reborn": 1789,
+        "gap": 11,
+        "iou": 0.386,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 2704,
+        "new_id": 2770,
+        "frame_lost": 1859,
+        "frame_reborn": 1864,
+        "gap": 5,
+        "iou": 0.473,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 2770,
+        "new_id": 2809,
+        "frame_lost": 1865,
+        "frame_reborn": 1881,
+        "gap": 16,
+        "iou": 0.69,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 2765,
+        "new_id": 2950,
+        "frame_lost": 1920,
+        "frame_reborn": 1951,
+        "gap": 31,
+        "iou": 0.373,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 2686,
+        "new_id": 2897,
+        "frame_lost": 1924,
+        "frame_reborn": 1932,
+        "gap": 8,
+        "iou": 0.773,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 2789,
+        "new_id": 3022,
+        "frame_lost": 1940,
+        "frame_reborn": 1976,
+        "gap": 36,
+        "iou": 0.391,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 2940,
+        "new_id": 2967,
+        "frame_lost": 1951,
+        "frame_reborn": 1957,
+        "gap": 6,
+        "iou": 0.467,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 2975,
+        "new_id": 3059,
+        "frame_lost": 1976,
+        "frame_reborn": 1992,
+        "gap": 16,
+        "iou": 0.499,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 2763,
+        "new_id": 3139,
+        "frame_lost": 1981,
+        "frame_reborn": 2015,
+        "gap": 34,
+        "iou": 0.308,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 2886,
+        "new_id": 3144,
+        "frame_lost": 1984,
+        "frame_reborn": 2017,
+        "gap": 33,
+        "iou": 0.457,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 2936,
+        "new_id": 3144,
+        "frame_lost": 1985,
+        "frame_reborn": 2017,
+        "gap": 32,
+        "iou": 0.4,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 2741,
+        "new_id": 3144,
+        "frame_lost": 1987,
+        "frame_reborn": 2017,
+        "gap": 30,
+        "iou": 0.316,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 2951,
+        "new_id": 3105,
+        "frame_lost": 1991,
+        "frame_reborn": 2006,
+        "gap": 15,
+        "iou": 0.362,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 2907,
+        "new_id": 3144,
+        "frame_lost": 1996,
+        "frame_reborn": 2017,
+        "gap": 21,
+        "iou": 0.478,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 2964,
+        "new_id": 3143,
+        "frame_lost": 2000,
+        "frame_reborn": 2017,
+        "gap": 17,
+        "iou": 0.493,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 3018,
+        "new_id": 3186,
+        "frame_lost": 2002,
+        "frame_reborn": 2038,
+        "gap": 36,
+        "iou": 0.42,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 3001,
+        "new_id": 3144,
+        "frame_lost": 2004,
+        "frame_reborn": 2017,
+        "gap": 13,
+        "iou": 0.323,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 2961,
+        "new_id": 3144,
+        "frame_lost": 2012,
+        "frame_reborn": 2017,
+        "gap": 5,
+        "iou": 0.337,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 3095,
+        "new_id": 3180,
+        "frame_lost": 2019,
+        "frame_reborn": 2034,
+        "gap": 15,
+        "iou": 0.615,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 3030,
+        "new_id": 3186,
+        "frame_lost": 2021,
+        "frame_reborn": 2038,
+        "gap": 17,
+        "iou": 0.686,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 3076,
+        "new_id": 3229,
+        "frame_lost": 2039,
+        "frame_reborn": 2061,
+        "gap": 22,
+        "iou": 0.699,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 3168,
+        "new_id": 3304,
+        "frame_lost": 2093,
+        "frame_reborn": 2099,
+        "gap": 6,
+        "iou": 0.336,
+        "cls": "car"
+      },
+      {
+        "old_id": 3374,
+        "new_id": 3471,
+        "frame_lost": 2132,
+        "frame_reborn": 2170,
+        "gap": 38,
+        "iou": 0.367,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 3393,
+        "new_id": 3514,
+        "frame_lost": 2182,
+        "frame_reborn": 2195,
+        "gap": 13,
+        "iou": 0.524,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 3515,
+        "new_id": 3557,
+        "frame_lost": 2204,
+        "frame_reborn": 2215,
+        "gap": 11,
+        "iou": 0.798,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 3618,
+        "new_id": 3683,
+        "frame_lost": 2249,
+        "frame_reborn": 2286,
+        "gap": 37,
+        "iou": 0.391,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 3635,
+        "new_id": 3677,
+        "frame_lost": 2263,
+        "frame_reborn": 2280,
+        "gap": 17,
+        "iou": 0.591,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 3701,
+        "new_id": 3742,
+        "frame_lost": 2307,
+        "frame_reborn": 2330,
+        "gap": 23,
+        "iou": 0.32,
+        "cls": "car"
+      },
+      {
+        "old_id": 3807,
+        "new_id": 3832,
+        "frame_lost": 2392,
+        "frame_reborn": 2404,
+        "gap": 12,
+        "iou": 0.328,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 3852,
+        "new_id": 3892,
+        "frame_lost": 2446,
+        "frame_reborn": 2467,
+        "gap": 21,
+        "iou": 0.337,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 3917,
+        "new_id": 3941,
+        "frame_lost": 2503,
+        "frame_reborn": 2508,
+        "gap": 5,
+        "iou": 0.607,
+        "cls": "car"
+      },
+      {
+        "old_id": 3909,
+        "new_id": 3981,
+        "frame_lost": 2510,
+        "frame_reborn": 2545,
+        "gap": 35,
+        "iou": 0.364,
+        "cls": "car"
+      },
+      {
+        "old_id": 3984,
+        "new_id": 4039,
+        "frame_lost": 2565,
+        "frame_reborn": 2583,
+        "gap": 18,
+        "iou": 0.466,
+        "cls": "car"
+      },
+      {
+        "old_id": 4026,
+        "new_id": 4117,
+        "frame_lost": 2627,
+        "frame_reborn": 2640,
+        "gap": 13,
+        "iou": 0.391,
+        "cls": "car"
+      },
+      {
+        "old_id": 4114,
+        "new_id": 4144,
+        "frame_lost": 2641,
+        "frame_reborn": 2662,
+        "gap": 21,
+        "iou": 0.318,
+        "cls": "car"
+      },
+      {
+        "old_id": 4126,
+        "new_id": 4173,
+        "frame_lost": 2652,
+        "frame_reborn": 2691,
+        "gap": 39,
+        "iou": 0.38,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 4144,
+        "new_id": 4195,
+        "frame_lost": 2673,
+        "frame_reborn": 2701,
+        "gap": 28,
+        "iou": 0.304,
+        "cls": "car"
+      },
+      {
+        "old_id": 4137,
+        "new_id": 4200,
+        "frame_lost": 2677,
+        "frame_reborn": 2703,
+        "gap": 26,
+        "iou": 0.379,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 4132,
+        "new_id": 4195,
+        "frame_lost": 2694,
+        "frame_reborn": 2701,
+        "gap": 7,
+        "iou": 0.382,
+        "cls": "car"
+      },
+      {
+        "old_id": 4394,
+        "new_id": 4425,
+        "frame_lost": 2930,
+        "frame_reborn": 2943,
+        "gap": 13,
+        "iou": 0.573,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 4761,
+        "new_id": 4766,
+        "frame_lost": 3342,
+        "frame_reborn": 3347,
+        "gap": 5,
+        "iou": 0.323,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 4795,
+        "new_id": 4844,
+        "frame_lost": 3469,
+        "frame_reborn": 3477,
+        "gap": 8,
+        "iou": 0.658,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 4894,
+        "new_id": 4929,
+        "frame_lost": 3538,
+        "frame_reborn": 3564,
+        "gap": 26,
+        "iou": 0.6,
+        "cls": "car"
+      },
+      {
+        "old_id": 4944,
+        "new_id": 4982,
+        "frame_lost": 3578,
+        "frame_reborn": 3610,
+        "gap": 32,
+        "iou": 0.52,
+        "cls": "car"
+      },
+      {
+        "old_id": 4972,
+        "new_id": 4992,
+        "frame_lost": 3599,
+        "frame_reborn": 3615,
+        "gap": 16,
+        "iou": 0.422,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 4972,
+        "new_id": 4996,
+        "frame_lost": 3599,
+        "frame_reborn": 3618,
+        "gap": 19,
+        "iou": 0.402,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 4972,
+        "new_id": 5005,
+        "frame_lost": 3599,
+        "frame_reborn": 3634,
+        "gap": 35,
+        "iou": 0.581,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 4980,
+        "new_id": 5015,
+        "frame_lost": 3616,
+        "frame_reborn": 3641,
+        "gap": 25,
+        "iou": 0.421,
+        "cls": "car"
+      },
+      {
+        "old_id": 5015,
+        "new_id": 5023,
+        "frame_lost": 3651,
+        "frame_reborn": 3662,
+        "gap": 11,
+        "iou": 0.445,
+        "cls": "car"
+      },
+      {
+        "old_id": 5015,
+        "new_id": 5047,
+        "frame_lost": 3651,
+        "frame_reborn": 3689,
+        "gap": 38,
+        "iou": 0.41,
+        "cls": "car"
+      },
+      {
+        "old_id": 5006,
+        "new_id": 5054,
+        "frame_lost": 3661,
+        "frame_reborn": 3690,
+        "gap": 29,
+        "iou": 0.347,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 5036,
+        "new_id": 5074,
+        "frame_lost": 3695,
+        "frame_reborn": 3718,
+        "gap": 23,
+        "iou": 0.504,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 4974,
+        "new_id": 5068,
+        "frame_lost": 3699,
+        "frame_reborn": 3708,
+        "gap": 9,
+        "iou": 0.395,
+        "cls": "car"
+      },
+      {
+        "old_id": 4974,
+        "new_id": 5070,
+        "frame_lost": 3699,
+        "frame_reborn": 3709,
+        "gap": 10,
+        "iou": 0.545,
+        "cls": "car"
+      },
+      {
+        "old_id": 5060,
+        "new_id": 5115,
+        "frame_lost": 3724,
+        "frame_reborn": 3748,
+        "gap": 24,
+        "iou": 0.328,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 5112,
+        "new_id": 5172,
+        "frame_lost": 3766,
+        "frame_reborn": 3804,
+        "gap": 38,
+        "iou": 0.458,
+        "cls": "car"
+      },
+      {
+        "old_id": 5045,
+        "new_id": 5172,
+        "frame_lost": 3775,
+        "frame_reborn": 3804,
+        "gap": 29,
+        "iou": 0.356,
+        "cls": "car"
+      },
+      {
+        "old_id": 5172,
+        "new_id": 5212,
+        "frame_lost": 3807,
+        "frame_reborn": 3835,
+        "gap": 28,
+        "iou": 0.485,
+        "cls": "car"
+      },
+      {
+        "old_id": 5212,
+        "new_id": 5267,
+        "frame_lost": 3836,
+        "frame_reborn": 3874,
+        "gap": 38,
+        "iou": 0.609,
+        "cls": "car"
+      },
+      {
+        "old_id": 5212,
+        "new_id": 5269,
+        "frame_lost": 3836,
+        "frame_reborn": 3875,
+        "gap": 39,
+        "iou": 0.513,
+        "cls": "car"
+      },
+      {
+        "old_id": 5136,
+        "new_id": 5267,
+        "frame_lost": 3852,
+        "frame_reborn": 3874,
+        "gap": 22,
+        "iou": 0.439,
+        "cls": "car"
+      },
+      {
+        "old_id": 5136,
+        "new_id": 5269,
+        "frame_lost": 3852,
+        "frame_reborn": 3875,
+        "gap": 23,
+        "iou": 0.442,
+        "cls": "car"
+      },
+      {
+        "old_id": 5264,
+        "new_id": 5295,
+        "frame_lost": 3888,
+        "frame_reborn": 3891,
+        "gap": 3,
+        "iou": 0.339,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 5321,
+        "new_id": 5341,
+        "frame_lost": 3916,
+        "frame_reborn": 3928,
+        "gap": 12,
+        "iou": 0.396,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 5383,
+        "new_id": 5399,
+        "frame_lost": 4021,
+        "frame_reborn": 4027,
+        "gap": 6,
+        "iou": 0.553,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 5363,
+        "new_id": 5411,
+        "frame_lost": 4029,
+        "frame_reborn": 4038,
+        "gap": 9,
+        "iou": 0.6,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 5428,
+        "new_id": 5455,
+        "frame_lost": 4071,
+        "frame_reborn": 4081,
+        "gap": 10,
+        "iou": 0.394,
+        "cls": "car"
+      },
+      {
+        "old_id": 5409,
+        "new_id": 5534,
+        "frame_lost": 4095,
+        "frame_reborn": 4131,
+        "gap": 36,
+        "iou": 0.484,
+        "cls": "car"
+      },
+      {
+        "old_id": 5366,
+        "new_id": 5615,
+        "frame_lost": 4124,
+        "frame_reborn": 4159,
+        "gap": 35,
+        "iou": 0.368,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 5453,
+        "new_id": 5615,
+        "frame_lost": 4135,
+        "frame_reborn": 4159,
+        "gap": 24,
+        "iou": 0.488,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 5447,
+        "new_id": 5602,
+        "frame_lost": 4139,
+        "frame_reborn": 4153,
+        "gap": 14,
+        "iou": 0.376,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 5515,
+        "new_id": 5602,
+        "frame_lost": 4147,
+        "frame_reborn": 4153,
+        "gap": 6,
+        "iou": 0.325,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 5566,
+        "new_id": 5682,
+        "frame_lost": 4163,
+        "frame_reborn": 4189,
+        "gap": 26,
+        "iou": 0.31,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 5642,
+        "new_id": 5754,
+        "frame_lost": 4193,
+        "frame_reborn": 4207,
+        "gap": 14,
+        "iou": 0.65,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 5592,
+        "new_id": 5767,
+        "frame_lost": 4204,
+        "frame_reborn": 4210,
+        "gap": 6,
+        "iou": 0.396,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 5719,
+        "new_id": 5944,
+        "frame_lost": 4259,
+        "frame_reborn": 4284,
+        "gap": 25,
+        "iou": 0.367,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 5770,
+        "new_id": 6020,
+        "frame_lost": 4301,
+        "frame_reborn": 4335,
+        "gap": 34,
+        "iou": 0.358,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 5938,
+        "new_id": 6036,
+        "frame_lost": 4343,
+        "frame_reborn": 4355,
+        "gap": 12,
+        "iou": 0.312,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 6043,
+        "new_id": 6054,
+        "frame_lost": 4361,
+        "frame_reborn": 4370,
+        "gap": 9,
+        "iou": 0.623,
+        "cls": "truck"
+      },
+      {
+        "old_id": 6079,
+        "new_id": 6097,
+        "frame_lost": 4425,
+        "frame_reborn": 4453,
+        "gap": 28,
+        "iou": 0.355,
+        "cls": "car"
+      },
+      {
+        "old_id": 6097,
+        "new_id": 6114,
+        "frame_lost": 4457,
+        "frame_reborn": 4476,
+        "gap": 19,
+        "iou": 0.322,
+        "cls": "car"
+      },
+      {
+        "old_id": 6270,
+        "new_id": 6303,
+        "frame_lost": 4706,
+        "frame_reborn": 4722,
+        "gap": 16,
+        "iou": 0.46,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 6275,
+        "new_id": 6303,
+        "frame_lost": 4711,
+        "frame_reborn": 4722,
+        "gap": 11,
+        "iou": 0.332,
+        "cls": "motorcycle"
+      }
+    ]
+  },
+  "ctrv": {
+    "unique_ids": 1831,
+    "unique_ids_motorcycle": 1256,
+    "mean_lifespan": 75.9,
+    "median_lifespan": 51.0,
+    "short_tracks(<10)": 192,
+    "reid_events": 109,
+    "reid_events_motorcycle": 49,
+    "events": [
+      {
+        "old_id": 142,
+        "new_id": 176,
+        "frame_lost": 77,
+        "frame_reborn": 98,
+        "gap": 21,
+        "iou": 0.635,
+        "cls": "car"
+      },
+      {
+        "old_id": 181,
+        "new_id": 239,
+        "frame_lost": 121,
+        "frame_reborn": 142,
+        "gap": 21,
+        "iou": 0.62,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 300,
+        "new_id": 345,
+        "frame_lost": 207,
+        "frame_reborn": 221,
+        "gap": 14,
+        "iou": 0.58,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 300,
+        "new_id": 370,
+        "frame_lost": 207,
+        "frame_reborn": 240,
+        "gap": 33,
+        "iou": 0.498,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 389,
+        "new_id": 411,
+        "frame_lost": 266,
+        "frame_reborn": 276,
+        "gap": 10,
+        "iou": 0.413,
+        "cls": "car"
+      },
+      {
+        "old_id": 427,
+        "new_id": 509,
+        "frame_lost": 331,
+        "frame_reborn": 363,
+        "gap": 32,
+        "iou": 0.352,
+        "cls": "car"
+      },
+      {
+        "old_id": 21,
+        "new_id": 507,
+        "frame_lost": 353,
+        "frame_reborn": 361,
+        "gap": 8,
+        "iou": 0.352,
+        "cls": "car"
+      },
+      {
+        "old_id": 522,
+        "new_id": 558,
+        "frame_lost": 390,
+        "frame_reborn": 400,
+        "gap": 10,
+        "iou": 0.529,
+        "cls": "car"
+      },
+      {
+        "old_id": 690,
+        "new_id": 935,
+        "frame_lost": 666,
+        "frame_reborn": 668,
+        "gap": 2,
+        "iou": 0.345,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 1102,
+        "new_id": 1131,
+        "frame_lost": 784,
+        "frame_reborn": 786,
+        "gap": 2,
+        "iou": 0.316,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 998,
+        "new_id": 1227,
+        "frame_lost": 835,
+        "frame_reborn": 837,
+        "gap": 2,
+        "iou": 0.37,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 970,
+        "new_id": 1280,
+        "frame_lost": 881,
+        "frame_reborn": 883,
+        "gap": 2,
+        "iou": 0.377,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 1188,
+        "new_id": 1377,
+        "frame_lost": 926,
+        "frame_reborn": 951,
+        "gap": 25,
+        "iou": 0.561,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 1172,
+        "new_id": 1377,
+        "frame_lost": 927,
+        "frame_reborn": 951,
+        "gap": 24,
+        "iou": 0.325,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 1244,
+        "new_id": 1377,
+        "frame_lost": 932,
+        "frame_reborn": 951,
+        "gap": 19,
+        "iou": 0.547,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 1318,
+        "new_id": 1377,
+        "frame_lost": 937,
+        "frame_reborn": 951,
+        "gap": 14,
+        "iou": 0.367,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 1232,
+        "new_id": 1395,
+        "frame_lost": 941,
+        "frame_reborn": 964,
+        "gap": 23,
+        "iou": 0.66,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 1298,
+        "new_id": 1377,
+        "frame_lost": 944,
+        "frame_reborn": 951,
+        "gap": 7,
+        "iou": 0.344,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 1122,
+        "new_id": 1381,
+        "frame_lost": 949,
+        "frame_reborn": 951,
+        "gap": 2,
+        "iou": 0.505,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 1306,
+        "new_id": 1395,
+        "frame_lost": 952,
+        "frame_reborn": 964,
+        "gap": 12,
+        "iou": 0.323,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 1356,
+        "new_id": 1557,
+        "frame_lost": 1021,
+        "frame_reborn": 1051,
+        "gap": 30,
+        "iou": 0.311,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 1322,
+        "new_id": 1557,
+        "frame_lost": 1032,
+        "frame_reborn": 1051,
+        "gap": 19,
+        "iou": 0.339,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 1576,
+        "new_id": 1755,
+        "frame_lost": 1166,
+        "frame_reborn": 1202,
+        "gap": 36,
+        "iou": 0.301,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 1723,
+        "new_id": 1758,
+        "frame_lost": 1169,
+        "frame_reborn": 1206,
+        "gap": 37,
+        "iou": 0.352,
+        "cls": "car"
+      },
+      {
+        "old_id": 1719,
+        "new_id": 1758,
+        "frame_lost": 1171,
+        "frame_reborn": 1206,
+        "gap": 35,
+        "iou": 0.33,
+        "cls": "car"
+      },
+      {
+        "old_id": 1740,
+        "new_id": 1805,
+        "frame_lost": 1203,
+        "frame_reborn": 1241,
+        "gap": 38,
+        "iou": 0.38,
+        "cls": "car"
+      },
+      {
+        "old_id": 1765,
+        "new_id": 1803,
+        "frame_lost": 1211,
+        "frame_reborn": 1240,
+        "gap": 29,
+        "iou": 0.531,
+        "cls": "car"
+      },
+      {
+        "old_id": 1762,
+        "new_id": 1801,
+        "frame_lost": 1237,
+        "frame_reborn": 1239,
+        "gap": 2,
+        "iou": 0.381,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 1762,
+        "new_id": 1823,
+        "frame_lost": 1237,
+        "frame_reborn": 1249,
+        "gap": 12,
+        "iou": 0.495,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 1762,
+        "new_id": 1853,
+        "frame_lost": 1237,
+        "frame_reborn": 1266,
+        "gap": 29,
+        "iou": 0.605,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 1726,
+        "new_id": 1889,
+        "frame_lost": 1290,
+        "frame_reborn": 1296,
+        "gap": 6,
+        "iou": 0.302,
+        "cls": "car"
+      },
+      {
+        "old_id": 1847,
+        "new_id": 1919,
+        "frame_lost": 1294,
+        "frame_reborn": 1314,
+        "gap": 20,
+        "iou": 0.434,
+        "cls": "car"
+      },
+      {
+        "old_id": 1925,
+        "new_id": 1979,
+        "frame_lost": 1330,
+        "frame_reborn": 1364,
+        "gap": 34,
+        "iou": 0.55,
+        "cls": "car"
+      },
+      {
+        "old_id": 1896,
+        "new_id": 1967,
+        "frame_lost": 1333,
+        "frame_reborn": 1355,
+        "gap": 22,
+        "iou": 0.384,
+        "cls": "car"
+      },
+      {
+        "old_id": 1896,
+        "new_id": 1979,
+        "frame_lost": 1333,
+        "frame_reborn": 1364,
+        "gap": 31,
+        "iou": 0.312,
+        "cls": "car"
+      },
+      {
+        "old_id": 1944,
+        "new_id": 1964,
+        "frame_lost": 1348,
+        "frame_reborn": 1353,
+        "gap": 5,
+        "iou": 0.407,
+        "cls": "car"
+      },
+      {
+        "old_id": 1857,
+        "new_id": 2017,
+        "frame_lost": 1357,
+        "frame_reborn": 1385,
+        "gap": 28,
+        "iou": 0.332,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 1967,
+        "new_id": 2006,
+        "frame_lost": 1360,
+        "frame_reborn": 1379,
+        "gap": 19,
+        "iou": 0.375,
+        "cls": "car"
+      },
+      {
+        "old_id": 1952,
+        "new_id": 2065,
+        "frame_lost": 1388,
+        "frame_reborn": 1425,
+        "gap": 37,
+        "iou": 0.335,
+        "cls": "car"
+      },
+      {
+        "old_id": 2025,
+        "new_id": 2050,
+        "frame_lost": 1400,
+        "frame_reborn": 1412,
+        "gap": 12,
+        "iou": 0.644,
+        "cls": "car"
+      },
+      {
+        "old_id": 1980,
+        "new_id": 2065,
+        "frame_lost": 1405,
+        "frame_reborn": 1425,
+        "gap": 20,
+        "iou": 0.534,
+        "cls": "car"
+      },
+      {
+        "old_id": 1980,
+        "new_id": 2096,
+        "frame_lost": 1405,
+        "frame_reborn": 1442,
+        "gap": 37,
+        "iou": 0.601,
+        "cls": "car"
+      },
+      {
+        "old_id": 1999,
+        "new_id": 2089,
+        "frame_lost": 1421,
+        "frame_reborn": 1437,
+        "gap": 16,
+        "iou": 0.425,
+        "cls": "car"
+      },
+      {
+        "old_id": 2050,
+        "new_id": 2106,
+        "frame_lost": 1442,
+        "frame_reborn": 1450,
+        "gap": 8,
+        "iou": 0.395,
+        "cls": "car"
+      },
+      {
+        "old_id": 2050,
+        "new_id": 2139,
+        "frame_lost": 1442,
+        "frame_reborn": 1474,
+        "gap": 32,
+        "iou": 0.349,
+        "cls": "car"
+      },
+      {
+        "old_id": 2012,
+        "new_id": 2147,
+        "frame_lost": 1460,
+        "frame_reborn": 1478,
+        "gap": 18,
+        "iou": 0.395,
+        "cls": "car"
+      },
+      {
+        "old_id": 2082,
+        "new_id": 2141,
+        "frame_lost": 1475,
+        "frame_reborn": 1476,
+        "gap": 1,
+        "iou": 0.373,
+        "cls": "car"
+      },
+      {
+        "old_id": 2156,
+        "new_id": 2209,
+        "frame_lost": 1492,
+        "frame_reborn": 1517,
+        "gap": 25,
+        "iou": 0.305,
+        "cls": "car"
+      },
+      {
+        "old_id": 2156,
+        "new_id": 2217,
+        "frame_lost": 1492,
+        "frame_reborn": 1522,
+        "gap": 30,
+        "iou": 0.502,
+        "cls": "car"
+      },
+      {
+        "old_id": 2178,
+        "new_id": 2238,
+        "frame_lost": 1507,
+        "frame_reborn": 1531,
+        "gap": 24,
+        "iou": 0.369,
+        "cls": "car"
+      },
+      {
+        "old_id": 2243,
+        "new_id": 2277,
+        "frame_lost": 1549,
+        "frame_reborn": 1570,
+        "gap": 21,
+        "iou": 0.334,
+        "cls": "car"
+      },
+      {
+        "old_id": 2201,
+        "new_id": 2277,
+        "frame_lost": 1555,
+        "frame_reborn": 1570,
+        "gap": 15,
+        "iou": 0.595,
+        "cls": "car"
+      },
+      {
+        "old_id": 2263,
+        "new_id": 2331,
+        "frame_lost": 1583,
+        "frame_reborn": 1606,
+        "gap": 23,
+        "iou": 0.35,
+        "cls": "car"
+      },
+      {
+        "old_id": 2372,
+        "new_id": 2688,
+        "frame_lost": 1826,
+        "frame_reborn": 1828,
+        "gap": 2,
+        "iou": 0.366,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 2624,
+        "new_id": 2795,
+        "frame_lost": 1861,
+        "frame_reborn": 1876,
+        "gap": 15,
+        "iou": 0.39,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 2545,
+        "new_id": 2812,
+        "frame_lost": 1879,
+        "frame_reborn": 1881,
+        "gap": 2,
+        "iou": 0.305,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 2812,
+        "new_id": 2968,
+        "frame_lost": 1918,
+        "frame_reborn": 1957,
+        "gap": 39,
+        "iou": 0.339,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 2766,
+        "new_id": 2968,
+        "frame_lost": 1942,
+        "frame_reborn": 1957,
+        "gap": 15,
+        "iou": 0.352,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 2584,
+        "new_id": 2968,
+        "frame_lost": 1948,
+        "frame_reborn": 1957,
+        "gap": 9,
+        "iou": 0.373,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 2751,
+        "new_id": 2998,
+        "frame_lost": 1962,
+        "frame_reborn": 1965,
+        "gap": 3,
+        "iou": 0.452,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 2694,
+        "new_id": 3175,
+        "frame_lost": 2030,
+        "frame_reborn": 2032,
+        "gap": 2,
+        "iou": 0.439,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 2988,
+        "new_id": 3278,
+        "frame_lost": 2065,
+        "frame_reborn": 2089,
+        "gap": 24,
+        "iou": 0.316,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 3171,
+        "new_id": 3305,
+        "frame_lost": 2093,
+        "frame_reborn": 2099,
+        "gap": 6,
+        "iou": 0.336,
+        "cls": "car"
+      },
+      {
+        "old_id": 3704,
+        "new_id": 3743,
+        "frame_lost": 2307,
+        "frame_reborn": 2330,
+        "gap": 23,
+        "iou": 0.32,
+        "cls": "car"
+      },
+      {
+        "old_id": 3808,
+        "new_id": 3834,
+        "frame_lost": 2392,
+        "frame_reborn": 2404,
+        "gap": 12,
+        "iou": 0.303,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 3918,
+        "new_id": 3942,
+        "frame_lost": 2503,
+        "frame_reborn": 2508,
+        "gap": 5,
+        "iou": 0.607,
+        "cls": "car"
+      },
+      {
+        "old_id": 3911,
+        "new_id": 3982,
+        "frame_lost": 2510,
+        "frame_reborn": 2545,
+        "gap": 35,
+        "iou": 0.364,
+        "cls": "car"
+      },
+      {
+        "old_id": 3905,
+        "new_id": 3991,
+        "frame_lost": 2512,
+        "frame_reborn": 2551,
+        "gap": 39,
+        "iou": 0.543,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 3987,
+        "new_id": 4042,
+        "frame_lost": 2565,
+        "frame_reborn": 2583,
+        "gap": 18,
+        "iou": 0.466,
+        "cls": "car"
+      },
+      {
+        "old_id": 4042,
+        "new_id": 4059,
+        "frame_lost": 2586,
+        "frame_reborn": 2598,
+        "gap": 12,
+        "iou": 0.491,
+        "cls": "car"
+      },
+      {
+        "old_id": 4079,
+        "new_id": 4135,
+        "frame_lost": 2620,
+        "frame_reborn": 2655,
+        "gap": 35,
+        "iou": 0.613,
+        "cls": "car"
+      },
+      {
+        "old_id": 4027,
+        "new_id": 4118,
+        "frame_lost": 2627,
+        "frame_reborn": 2640,
+        "gap": 13,
+        "iou": 0.391,
+        "cls": "car"
+      },
+      {
+        "old_id": 4115,
+        "new_id": 4146,
+        "frame_lost": 2641,
+        "frame_reborn": 2662,
+        "gap": 21,
+        "iou": 0.318,
+        "cls": "car"
+      },
+      {
+        "old_id": 4146,
+        "new_id": 4198,
+        "frame_lost": 2673,
+        "frame_reborn": 2701,
+        "gap": 28,
+        "iou": 0.304,
+        "cls": "car"
+      },
+      {
+        "old_id": 4135,
+        "new_id": 4198,
+        "frame_lost": 2694,
+        "frame_reborn": 2701,
+        "gap": 7,
+        "iou": 0.382,
+        "cls": "car"
+      },
+      {
+        "old_id": 4203,
+        "new_id": 4350,
+        "frame_lost": 2828,
+        "frame_reborn": 2831,
+        "gap": 3,
+        "iou": 0.445,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 4825,
+        "new_id": 4873,
+        "frame_lost": 3494,
+        "frame_reborn": 3504,
+        "gap": 10,
+        "iou": 0.669,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 4895,
+        "new_id": 4932,
+        "frame_lost": 3538,
+        "frame_reborn": 3564,
+        "gap": 26,
+        "iou": 0.6,
+        "cls": "car"
+      },
+      {
+        "old_id": 4945,
+        "new_id": 4983,
+        "frame_lost": 3578,
+        "frame_reborn": 3610,
+        "gap": 32,
+        "iou": 0.52,
+        "cls": "car"
+      },
+      {
+        "old_id": 4981,
+        "new_id": 5016,
+        "frame_lost": 3616,
+        "frame_reborn": 3641,
+        "gap": 25,
+        "iou": 0.421,
+        "cls": "car"
+      },
+      {
+        "old_id": 5016,
+        "new_id": 5024,
+        "frame_lost": 3651,
+        "frame_reborn": 3662,
+        "gap": 11,
+        "iou": 0.445,
+        "cls": "car"
+      },
+      {
+        "old_id": 5016,
+        "new_id": 5050,
+        "frame_lost": 3651,
+        "frame_reborn": 3689,
+        "gap": 38,
+        "iou": 0.41,
+        "cls": "car"
+      },
+      {
+        "old_id": 4999,
+        "new_id": 5035,
+        "frame_lost": 3665,
+        "frame_reborn": 3667,
+        "gap": 2,
+        "iou": 0.435,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 4975,
+        "new_id": 5069,
+        "frame_lost": 3699,
+        "frame_reborn": 3708,
+        "gap": 9,
+        "iou": 0.395,
+        "cls": "car"
+      },
+      {
+        "old_id": 4975,
+        "new_id": 5071,
+        "frame_lost": 3699,
+        "frame_reborn": 3709,
+        "gap": 10,
+        "iou": 0.545,
+        "cls": "car"
+      },
+      {
+        "old_id": 5010,
+        "new_id": 5094,
+        "frame_lost": 3728,
+        "frame_reborn": 3730,
+        "gap": 2,
+        "iou": 0.521,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 5114,
+        "new_id": 5174,
+        "frame_lost": 3766,
+        "frame_reborn": 3804,
+        "gap": 38,
+        "iou": 0.458,
+        "cls": "car"
+      },
+      {
+        "old_id": 5046,
+        "new_id": 5174,
+        "frame_lost": 3775,
+        "frame_reborn": 3804,
+        "gap": 29,
+        "iou": 0.356,
+        "cls": "car"
+      },
+      {
+        "old_id": 5174,
+        "new_id": 5214,
+        "frame_lost": 3807,
+        "frame_reborn": 3835,
+        "gap": 28,
+        "iou": 0.485,
+        "cls": "car"
+      },
+      {
+        "old_id": 5157,
+        "new_id": 5198,
+        "frame_lost": 3823,
+        "frame_reborn": 3825,
+        "gap": 2,
+        "iou": 0.401,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 5157,
+        "new_id": 5242,
+        "frame_lost": 3823,
+        "frame_reborn": 3852,
+        "gap": 29,
+        "iou": 0.602,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 5214,
+        "new_id": 5268,
+        "frame_lost": 3836,
+        "frame_reborn": 3874,
+        "gap": 38,
+        "iou": 0.609,
+        "cls": "car"
+      },
+      {
+        "old_id": 5214,
+        "new_id": 5271,
+        "frame_lost": 3836,
+        "frame_reborn": 3875,
+        "gap": 39,
+        "iou": 0.513,
+        "cls": "car"
+      },
+      {
+        "old_id": 5232,
+        "new_id": 5256,
+        "frame_lost": 3856,
+        "frame_reborn": 3866,
+        "gap": 10,
+        "iou": 0.461,
+        "cls": "car"
+      },
+      {
+        "old_id": 5364,
+        "new_id": 5405,
+        "frame_lost": 4019,
+        "frame_reborn": 4032,
+        "gap": 13,
+        "iou": 0.47,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 5429,
+        "new_id": 5456,
+        "frame_lost": 4071,
+        "frame_reborn": 4081,
+        "gap": 10,
+        "iou": 0.394,
+        "cls": "car"
+      },
+      {
+        "old_id": 5410,
+        "new_id": 5535,
+        "frame_lost": 4095,
+        "frame_reborn": 4131,
+        "gap": 36,
+        "iou": 0.484,
+        "cls": "car"
+      },
+      {
+        "old_id": 5454,
+        "new_id": 5598,
+        "frame_lost": 4124,
+        "frame_reborn": 4150,
+        "gap": 26,
+        "iou": 0.339,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 5438,
+        "new_id": 5616,
+        "frame_lost": 4144,
+        "frame_reborn": 4159,
+        "gap": 15,
+        "iou": 0.355,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 5498,
+        "new_id": 5732,
+        "frame_lost": 4174,
+        "frame_reborn": 4201,
+        "gap": 27,
+        "iou": 0.438,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 5384,
+        "new_id": 5748,
+        "frame_lost": 4192,
+        "frame_reborn": 4205,
+        "gap": 13,
+        "iou": 0.303,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 5420,
+        "new_id": 5834,
+        "frame_lost": 4229,
+        "frame_reborn": 4231,
+        "gap": 2,
+        "iou": 0.306,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 5815,
+        "new_id": 5868,
+        "frame_lost": 4238,
+        "frame_reborn": 4247,
+        "gap": 9,
+        "iou": 0.609,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 5901,
+        "new_id": 6021,
+        "frame_lost": 4312,
+        "frame_reborn": 4335,
+        "gap": 23,
+        "iou": 0.307,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 5563,
+        "new_id": 6015,
+        "frame_lost": 4330,
+        "frame_reborn": 4333,
+        "gap": 3,
+        "iou": 0.318,
+        "cls": "motorcycle"
+      },
+      {
+        "old_id": 6044,
+        "new_id": 6055,
+        "frame_lost": 4361,
+        "frame_reborn": 4370,
+        "gap": 9,
+        "iou": 0.623,
+        "cls": "truck"
+      },
+      {
+        "old_id": 6081,
+        "new_id": 6099,
+        "frame_lost": 4425,
+        "frame_reborn": 4453,
+        "gap": 28,
+        "iou": 0.355,
+        "cls": "car"
+      },
+      {
+        "old_id": 6099,
+        "new_id": 6115,
+        "frame_lost": 4457,
+        "frame_reborn": 4476,
+        "gap": 19,
+        "iou": 0.322,
+        "cls": "car"
+      },
+      {
+        "old_id": 6272,
+        "new_id": 6304,
+        "frame_lost": 4706,
+        "frame_reborn": 4722,
+        "gap": 16,
+        "iou": 0.311,
+        "cls": "motorcycle"
+      }
+    ]
+  }
+}

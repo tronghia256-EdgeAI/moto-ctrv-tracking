@@ -1,0 +1,6 @@
+# Optional ROI-only C1/C2/C3 run for the NKKN mixed-camera scope.
+# Save ROI first. Override this file's ablation flags for fair comparisons.
+weights:
+  yolo11: best.pt
+roi:
+  review_bundle: active_mixed

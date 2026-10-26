@@ -1,0 +1,80 @@
+# configs/default.yaml
+# ─────────────────────────────────────────────────────────────────────
+# Default configuration for the adaptive perception pipeline.
+# Override per-experiment by creating configs/exp1_C1.yaml etc.
+# ─────────────────────────────────────────────────────────────────────
+
+# ── Model weights ─────────────────────────────────────────────────────
+weights:
+  yolo11: "weights/yolo11_vn.pt"          # TODO: path after training
+  efficientnet: "weights/efficientnet_severity.pt"  # TODO: path after training
+
+# ── Detector ──────────────────────────────────────────────────────────
+detector:
+  default_conf: 0.45         # overridden by AdaptiveController each frame
+  img_size: 640
+
+# ── ByteTrack ─────────────────────────────────────────────────────────
+tracker:
+  track_thresh: 0.5          # high-confidence detection threshold
+  track_buffer: 30           # overridden by AdaptiveController each frame
+  match_thresh: 0.8
+  frame_rate: 30
+  # C2 uncertainty gating: lost motorcycle tracks may re-associate inside
+  # the CTRV innovation ellipse (validated 2026-07-14: moto re-id events
+  # -52% vs baseline on NKKN 9000-frame replay, no ID-transfer inflation).
+  uncertainty_gating: true
+
+# ── Adaptive Controller ───────────────────────────────────────────────
+adaptive_controller:
+  density_threshold: 30      # TODO: tune from VN footage
+  brightness_night: 80.0
+  peak_hours_start: 7
+  peak_hours_end: 20
+
+# ── CTRV Model ────────────────────────────────────────────────────────
+ctrv:
+  dt: 1.0                    # time step (1 frame)
+  Q_diag: [0.5, 0.5, 0.1, 0.001, 0.0001]  # process noise diagonal (tuned on synthetic; re-tune on VN footage)
+  R_diag: [10.0, 10.0]                  # measurement noise diagonal
+  # NSA (StrongSORT-style): R scaled by (1 - det score) per update.
+  # Validated 2026-07-14: moto re-id 125 -> 108, flip rate down (22.0%).
+  nsa_noise: true
+  # scale_adaptive: measured harmful (see c2_variants/evidence.md); OFF.
+
+# ── Track Reliability ─────────────────────────────────────────────────
+reliability:
+  weights:
+    age: 0.10
+    consistency: 0.20
+    smoothness: 0.25
+    class_stability: 0.15
+    det_conf: 0.30            # anti-ghost: mean matched-det confidence
+  thresholds:
+    accident: 0.70           # TODO: tune via ablation
+    mappo: 0.40              # TODO: tune via ablation
+  window_size: 10
+
+# ── Accident Classifier ───────────────────────────────────────────────
+accident_classifier:
+  input_size: 224
+  batch_size: 1
+
+# ── Telegram Alert ────────────────────────────────────────────────────
+# Credentials live in configs/tele_api.yaml, which is gitignored.
+# Copy configs/tele_api.example.yaml -> configs/tele_api.yaml and fill it in.
+telegram:
+  credentials_file: "configs/tele_api.yaml"
+  rate_limit_seconds: 10     # minimum seconds between alerts
+
+# ── Dataset paths ─────────────────────────────────────────────────────
+data:
+  video_dir: "data/raw/videos/"
+  annotation_dir: "data/annotations/"
+  processed_dir: "data/processed/"
+
+# ── Experiment flags (toggle components for ablation) ─────────────────
+ablation:
+  use_C1_adaptive: true      # set false for baseline
+  use_C2_ctrv: true          # set false for Exp0, Exp1
+  use_C3_reliability: true   # set false for Exp0, Exp1, Exp2

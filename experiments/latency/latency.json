@@ -1,0 +1,51 @@
+{
+  "baseline": {
+    "fps_replay": 245.2,
+    "latency_ms_mean": 3.926,
+    "latency_ms_p50": 3.574,
+    "latency_ms_p95": 6.685,
+    "latency_ms_p95_dense": 9.672
+  },
+  "ctrv": {
+    "fps_replay": 217.5,
+    "latency_ms_mean": 4.436,
+    "latency_ms_p50": 3.957,
+    "latency_ms_p95": 7.51,
+    "latency_ms_p95_dense": 9.87
+  },
+  "ctrv_nsa": {
+    "fps_replay": 213.9,
+    "latency_ms_mean": 4.512,
+    "latency_ms_p50": 4.034,
+    "latency_ms_p95": 7.681,
+    "latency_ms_p95_dense": 9.818
+  },
+  "ctrv_gate": {
+    "fps_replay": 206.7,
+    "latency_ms_mean": 4.675,
+    "latency_ms_p50": 4.036,
+    "latency_ms_p95": 8.151,
+    "latency_ms_p95_dense": 13.681
+  },
+  "ctrv_gate_nsa": {
+    "fps_replay": 202.2,
+    "latency_ms_mean": 4.778,
+    "latency_ms_p50": 4.157,
+    "latency_ms_p95": 8.283,
+    "latency_ms_p95_dense": 14.091
+  },
+  "c1_ctrv_gate": {
+    "fps_replay": 212.0,
+    "latency_ms_mean": 4.553,
+    "latency_ms_p50": 4.0,
+    "latency_ms_p95": 7.978,
+    "latency_ms_p95_dense": 10.822
+  },
+  "c1c2c3": {
+    "fps_replay": 178.8,
+    "latency_ms_mean": 5.423,
+    "latency_ms_p50": 4.669,
+    "latency_ms_p95": 9.715,
+    "latency_ms_p95_dense": 13.802
+  }
+}

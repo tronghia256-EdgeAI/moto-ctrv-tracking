@@ -1,0 +1,458 @@
+{
+ "source": "data\\annotations\\paper_gt_audit\\roi_241dc106947b1723",
+ "rule": "gt_issue as in paper_gt_audit.py",
+ "seed_tracker": {
+  "dense": "ctrv_gate_nsa",
+  "freeflow": "ctrv_gate_nsa",
+  "mixed": "baseline"
+ },
+ "strata": [
+  {
+   "segment": "dense",
+   "tracker": "baseline",
+   "kind": "extra",
+   "available": 227,
+   "sampled": 10,
+   "seed": false,
+   "counts": {
+    "D": 1,
+    "N": 1,
+    "Y": 8
+   },
+   "judged": 10,
+   "gt_wrong": 8,
+   "share": 0.8,
+   "wilson95": [
+    0.49,
+    0.943
+   ],
+   "unsampled": 217,
+   "expected_left": [
+    106,
+    174,
+    205
+   ]
+  },
+  {
+   "segment": "dense",
+   "tracker": "baseline",
+   "kind": "missing",
+   "available": 507,
+   "sampled": 10,
+   "seed": false,
+   "counts": {
+    "D": 1,
+    "N": 1,
+    "Y": 8
+   },
+   "judged": 10,
+   "gt_wrong": 2,
+   "share": 0.2,
+   "wilson95": [
+    0.057,
+    0.51
+   ],
+   "unsampled": 497,
+   "expected_left": [
+    28,
+    99,
+    253
+   ]
+  },
+  {
+   "segment": "dense",
+   "tracker": "baseline",
+   "kind": "identity",
+   "available": 124,
+   "sampled": 10,
+   "seed": false,
+   "counts": {
+    "N": 1,
+    "Y": 9
+   },
+   "judged": 10,
+   "gt_wrong": 1,
+   "share": 0.1,
+   "wilson95": [
+    0.018,
+    0.404
+   ],
+   "unsampled": 114,
+   "expected_left": [
+    2,
+    11,
+    46
+   ]
+  },
+  {
+   "segment": "dense",
+   "tracker": "ctrv_gate_nsa",
+   "kind": "extra",
+   "available": 172,
+   "sampled": 10,
+   "seed": true,
+   "counts": {
+    "D": 7,
+    "Y": 3
+   },
+   "judged": 10,
+   "gt_wrong": 3,
+   "share": 0.3,
+   "wilson95": [
+    0.108,
+    0.603
+   ],
+   "unsampled": 162,
+   "expected_left": [
+    17,
+    49,
+    98
+   ]
+  },
+  {
+   "segment": "dense",
+   "tracker": "ctrv_gate_nsa",
+   "kind": "missing",
+   "available": 136,
+   "sampled": 10,
+   "seed": true,
+   "counts": {
+    "Y": 10
+   },
+   "judged": 10,
+   "gt_wrong": 0,
+   "share": 0.0,
+   "wilson95": [
+    0.0,
+    0.278
+   ],
+   "unsampled": 126,
+   "expected_left": [
+    0,
+    0,
+    35
+   ]
+  },
+  {
+   "segment": "dense",
+   "tracker": "ctrv_gate_nsa",
+   "kind": "identity",
+   "available": 48,
+   "sampled": 10,
+   "seed": true,
+   "counts": {
+    "N": 2,
+    "Y": 8
+   },
+   "judged": 10,
+   "gt_wrong": 2,
+   "share": 0.2,
+   "wilson95": [
+    0.057,
+    0.51
+   ],
+   "unsampled": 38,
+   "expected_left": [
+    2,
+    8,
+    19
+   ]
+  },
+  {
+   "segment": "freeflow",
+   "tracker": "baseline",
+   "kind": "extra",
+   "available": 9,
+   "sampled": 9,
+   "seed": false,
+   "counts": {
+    "D": 4,
+    "Y": 5
+   },
+   "judged": 9,
+   "gt_wrong": 5,
+   "share": 0.556,
+   "wilson95": [
+    0.267,
+    0.811
+   ],
+   "unsampled": 0,
+   "expected_left": [
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "segment": "freeflow",
+   "tracker": "baseline",
+   "kind": "missing",
+   "available": 47,
+   "sampled": 10,
+   "seed": false,
+   "counts": {
+    "Y": 10
+   },
+   "judged": 10,
+   "gt_wrong": 0,
+   "share": 0.0,
+   "wilson95": [
+    0.0,
+    0.278
+   ],
+   "unsampled": 37,
+   "expected_left": [
+    0,
+    0,
+    10
+   ]
+  },
+  {
+   "segment": "freeflow",
+   "tracker": "baseline",
+   "kind": "identity",
+   "available": 11,
+   "sampled": 10,
+   "seed": false,
+   "counts": {
+    "N": 1,
+    "Y": 9
+   },
+   "judged": 10,
+   "gt_wrong": 1,
+   "share": 0.1,
+   "wilson95": [
+    0.018,
+    0.404
+   ],
+   "unsampled": 1,
+   "expected_left": [
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "segment": "freeflow",
+   "tracker": "ctrv_gate_nsa",
+   "kind": "extra",
+   "available": 3,
+   "sampled": 3,
+   "seed": true,
+   "counts": {
+    "D": 3
+   },
+   "judged": 3,
+   "gt_wrong": 0,
+   "share": 0.0,
+   "wilson95": [
+    0.0,
+    0.562
+   ],
+   "unsampled": 0,
+   "expected_left": [
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "segment": "freeflow",
+   "tracker": "ctrv_gate_nsa",
+   "kind": "missing",
+   "available": 6,
+   "sampled": 6,
+   "seed": true,
+   "counts": {
+    "Y": 6
+   },
+   "judged": 6,
+   "gt_wrong": 0,
+   "share": 0.0,
+   "wilson95": [
+    0.0,
+    0.39
+   ],
+   "unsampled": 0,
+   "expected_left": [
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "segment": "freeflow",
+   "tracker": "ctrv_gate_nsa",
+   "kind": "identity",
+   "available": 7,
+   "sampled": 7,
+   "seed": true,
+   "counts": {
+    "Y": 7
+   },
+   "judged": 7,
+   "gt_wrong": 0,
+   "share": 0.0,
+   "wilson95": [
+    0.0,
+    0.354
+   ],
+   "unsampled": 0,
+   "expected_left": [
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "segment": "mixed",
+   "tracker": "baseline",
+   "kind": "extra",
+   "available": 3,
+   "sampled": 3,
+   "seed": true,
+   "counts": {
+    "D": 1,
+    "N": 1,
+    "Y": 1
+   },
+   "judged": 3,
+   "gt_wrong": 1,
+   "share": 0.333,
+   "wilson95": [
+    0.061,
+    0.792
+   ],
+   "unsampled": 0,
+   "expected_left": [
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "segment": "mixed",
+   "tracker": "baseline",
+   "kind": "missing",
+   "available": 1,
+   "sampled": 1,
+   "seed": true,
+   "counts": {
+    "Y": 1
+   },
+   "judged": 1,
+   "gt_wrong": 0,
+   "share": 0.0,
+   "wilson95": [
+    0.0,
+    0.793
+   ],
+   "unsampled": 0,
+   "expected_left": [
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "segment": "mixed",
+   "tracker": "baseline",
+   "kind": "identity",
+   "available": 9,
+   "sampled": 9,
+   "seed": true,
+   "counts": {
+    "N": 1,
+    "Y": 8
+   },
+   "judged": 9,
+   "gt_wrong": 1,
+   "share": 0.111,
+   "wilson95": [
+    0.02,
+    0.435
+   ],
+   "unsampled": 0,
+   "expected_left": [
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "segment": "mixed",
+   "tracker": "ctrv_gate_nsa",
+   "kind": "extra",
+   "available": 157,
+   "sampled": 10,
+   "seed": false,
+   "counts": {
+    "N": 2,
+    "Y": 8
+   },
+   "judged": 10,
+   "gt_wrong": 8,
+   "share": 0.8,
+   "wilson95": [
+    0.49,
+    0.943
+   ],
+   "unsampled": 147,
+   "expected_left": [
+    72,
+    118,
+    139
+   ]
+  },
+  {
+   "segment": "mixed",
+   "tracker": "ctrv_gate_nsa",
+   "kind": "missing",
+   "available": 26,
+   "sampled": 10,
+   "seed": false,
+   "counts": {
+    "D": 1,
+    "Y": 9
+   },
+   "judged": 10,
+   "gt_wrong": 1,
+   "share": 0.1,
+   "wilson95": [
+    0.018,
+    0.404
+   ],
+   "unsampled": 16,
+   "expected_left": [
+    0,
+    2,
+    6
+   ]
+  },
+  {
+   "segment": "mixed",
+   "tracker": "ctrv_gate_nsa",
+   "kind": "identity",
+   "available": 10,
+   "sampled": 10,
+   "seed": false,
+   "counts": {
+    "N": 1,
+    "Y": 9
+   },
+   "judged": 10,
+   "gt_wrong": 1,
+   "share": 0.1,
+   "wilson95": [
+    0.018,
+    0.404
+   ],
+   "unsampled": 0,
+   "expected_left": [
+    0,
+    0,
+    0
+   ]
+  }
+ ]
+}

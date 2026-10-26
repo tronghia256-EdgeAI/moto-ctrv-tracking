@@ -1,0 +1,24 @@
+{
+ "run": "data\\processed\\paper_runs\\best85_roi_final",
+ "protocol_sha256": "6132141f26bbec3c444b84369c01aba6c7cca248e8b8cb1956cbf460d3a5f772",
+ "commit": "35d85b1",
+ "branch": "main",
+ "cwd": "<workspace>/CAAP",
+ "launched": "2026-10-13 16:15",
+ "launcher": {
+  "output": "data/processed/paper_runs/best85_roi_final",
+  "started_local": "2026-10-13 16:15",
+  "commands": "run_roi_paper --phase cache, then replay, then score; --sizes 448 640 960 1280 --out data/processed/paper_runs/best85_roi_final (benchmark later with the SAME --sizes list, under one machine state)",
+  "commit": "35d85b1",
+  "parallel_with": "data/processed/paper_runs/yolo11vn_roi_final",
+  "launched_by": "session caap-cb"
+ },
+ "status": {
+  "status": "COMPLETED",
+  "requested_phase": "score",
+  "protocol_sha256": "6132141f26bbec3c444b84369c01aba6c7cca248e8b8cb1956cbf460d3a5f772",
+  "size": 1280,
+  "phase": "score"
+ },
+ "note": "ROI pixel mask before the detector (protocol of 12/10). Never hit a degenerate own-tracker state: this runner fails closed on one, so its outputs equal those of 9d2a0f6."
+}

@@ -1,0 +1,17 @@
+# configs/tele_api.example.yaml
+# ─────────────────────────────────────────────────────────────────────
+# Template for Telegram bot credentials.
+#
+#   cp configs/tele_api.example.yaml configs/tele_api.yaml
+#
+# Then fill in the real values. configs/tele_api.yaml is gitignored and
+# must never be committed. This example file carries no real secrets.
+# ─────────────────────────────────────────────────────────────────────
+
+telegram:
+  # From @BotFather -> /newbot  (format: <bot_id>:<35-char secret>)
+  token: "REPLACE_ME"
+
+  # Target chat. Get it by messaging the bot, then:
+  #   curl https://api.telegram.org/bot<TOKEN>/getUpdates
+  chat_id: "REPLACE_ME"
